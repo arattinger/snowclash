@@ -2,27 +2,62 @@
 using System.Collections;
 
 public class Player : MonoBehaviour {
-    float speed = 5f;
+    NavMeshAgent navAgent;
+    public Animator animator;
 
-    
+    // Use this for initialization
+    void Start()
+    {
+        navAgent = GetComponent<NavMeshAgent>();
+        navAgent.updateRotation = false;
+        //Time.timeScale = 0.1f;
+    }
 
+    // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetButtonDown("Fire1"))
         {
-            transform.position += Vector3.right * speed * Time.deltaTime;
+            RaycastHit hit;
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+
+            if (Physics.Raycast(ray, out hit))
+            {
+                Debug.Log("tag:" + hit.collider.tag);
+                if (hit.collider.tag == "Ground" || hit.collider.tag == "Obstacle")
+                {
+                    navAgent.SetDestination(hit.point);
+                }
+            }
         }
-        if (Input.GetKey(KeyCode.LeftArrow))
+
+        UpdateAnimation();
+    }
+
+
+    void UpdateAnimation()
+    {
+        //Debug.Log("velocity:" + navAgent.velocity + " desiredVelocity:" + navAgent.desiredVelocity);
+
+        if (navAgent.desiredVelocity == Vector3.zero)
         {
-            transform.position += Vector3.left * speed * Time.deltaTime;
+            animator.SetInteger("Direction", 0);
         }
-        if (Input.GetKey(KeyCode.UpArrow))
+        else if (navAgent.desiredVelocity.z > 0.2f)
         {
-            transform.position += Vector3.forward * speed * Time.deltaTime;
+            animator.SetInteger("Direction", 8);
         }
-        if (Input.GetKey(KeyCode.DownArrow))
+        else if (navAgent.desiredVelocity.z < -0.2f)
         {
-            transform.position += Vector3.back * speed * Time.deltaTime;
+            animator.SetInteger("Direction", 2);
+        }
+        else if (navAgent.desiredVelocity.x > 0.2f)
+        {
+            animator.SetInteger("Direction", 6);
+        }
+        else if (navAgent.desiredVelocity.x < -0.2f)
+        {
+            animator.SetInteger("Direction", 4);
         }
     }
 }
