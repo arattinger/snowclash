@@ -2,13 +2,12 @@
 using System.Collections;
 
 public class Zombie : MonoBehaviour {
-    public Transform victim;
     NavMeshAgent navComponent;
 
 	// Use this for initialization
 	void Start () {
         navComponent = GetComponent<NavMeshAgent>();
-
+        navComponent.updateRotation = false;
     }
 	
 	// Update is called once per frame
