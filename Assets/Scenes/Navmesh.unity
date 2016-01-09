@@ -145,7 +145,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
 --- !u!1 &145148864
 GameObject:
   m_ObjectHideFlags: 0
@@ -159,7 +159,7 @@ GameObject:
   - 23: {fileID: 145148866}
   m_Layer: 0
   m_Name: Obstacle (3)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -234,7 +234,7 @@ GameObject:
   - 23: {fileID: 380511861}
   m_Layer: 0
   m_Name: Obstacle (4)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -329,7 +329,7 @@ Transform:
   - {fileID: 145148865}
   - {fileID: 380511860}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
 --- !u!1 &908794686
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,7 +402,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &929652282
 Transform:
   m_ObjectHideFlags: 0
@@ -410,12 +410,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 929652281}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 908794688}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
 --- !u!1 &1028364135
 GameObject:
   m_ObjectHideFlags: 0
@@ -428,8 +428,8 @@ GameObject:
   - 64: {fileID: 1028364137}
   - 23: {fileID: 1028364136}
   m_Layer: 0
-  m_Name: Floor
-  m_TagString: Untagged
+  m_Name: Ground
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -491,56 +491,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 449113797}
   m_RootOrder: 1
---- !u!1001 &1087930793
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 436878, guid: 868cdbe93bfdeb14d81913c9d8e6670d, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 4.178
-      objectReference: {fileID: 0}
-    - target: {fileID: 436878, guid: 868cdbe93bfdeb14d81913c9d8e6670d, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -4.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 436878, guid: 868cdbe93bfdeb14d81913c9d8e6670d, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 436878, guid: 868cdbe93bfdeb14d81913c9d8e6670d, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 436878, guid: 868cdbe93bfdeb14d81913c9d8e6670d, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 436878, guid: 868cdbe93bfdeb14d81913c9d8e6670d, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 436878, guid: 868cdbe93bfdeb14d81913c9d8e6670d, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 436878, guid: 868cdbe93bfdeb14d81913c9d8e6670d, type: 2}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 176414, guid: 868cdbe93bfdeb14d81913c9d8e6670d, type: 2}
-      propertyPath: m_Name
-      value: Player (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 176414, guid: 868cdbe93bfdeb14d81913c9d8e6670d, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 868cdbe93bfdeb14d81913c9d8e6670d, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &1156904985
 GameObject:
   m_ObjectHideFlags: 0
@@ -554,7 +504,7 @@ GameObject:
   - 23: {fileID: 1156904987}
   m_Layer: 0
   m_Name: Obstacle
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -648,6 +598,7 @@ Transform:
   m_LocalScale: {x: 0.20730278, y: 0.20730267, z: 0.20730267}
   m_Children:
   - {fileID: 1444159975}
+  - {fileID: 1658164923}
   m_Father: {fileID: 449113797}
   m_RootOrder: 0
 --- !u!23 &1174527650
@@ -708,7 +659,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!195 &1174527654
 NavMeshAgent:
@@ -741,6 +692,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e90f0bc471ff5f41ac24c1a73cd0aae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 1444159977}
 --- !u!1 &1444159974
 GameObject:
   m_ObjectHideFlags: 0
@@ -750,6 +702,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1444159975}
   - 212: {fileID: 1444159976}
+  - 95: {fileID: 1444159977}
   m_Layer: 0
   m_Name: 2DPlayer
   m_TagString: Untagged
@@ -764,7 +717,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1444159974}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1.42, z: 0}
   m_LocalScale: {x: 2.411931, y: 2.4119322, z: 2.4119322}
   m_Children: []
   m_Father: {fileID: 1174527649}
@@ -799,6 +752,23 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!95 &1444159977
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1444159974}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2ecabedac11619942b1751cfe43e21aa, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1658164918
 GameObject:
   m_ObjectHideFlags: 0
@@ -859,7 +829,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 2.02
+  orthographic size: 0.98
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -880,11 +850,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1658164918}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
-  m_LocalPosition: {x: 0, y: 19.65, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 90, z: 0}
+  m_LocalScale: {x: 4.823862, y: 4.8238645, z: 4.8238645}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_Father: {fileID: 1174527649}
+  m_RootOrder: 1
 --- !u!1 &1690760984
 GameObject:
   m_ObjectHideFlags: 0
@@ -898,7 +868,7 @@ GameObject:
   - 23: {fileID: 1690760986}
   m_Layer: 0
   m_Name: Obstacle (1)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -973,7 +943,7 @@ GameObject:
   - 23: {fileID: 1699143504}
   m_Layer: 0
   m_Name: Obstacle (2)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
