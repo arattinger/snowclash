@@ -4,7 +4,6 @@ using System.Collections;
 public class Zombie : MonoBehaviour {
     NavMeshAgent navAgent;
     public Animator animator;
-    public GameObject player;
 
     // Use this for initialization
     void Start()
@@ -16,7 +15,7 @@ public class Zombie : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        navAgent.SetDestination(player.transform.position);
+        navAgent.SetDestination(Player.playerPos);
         UpdateAnimation();
     }
 
@@ -28,19 +27,19 @@ public class Zombie : MonoBehaviour {
         {
             animator.SetInteger("Direction", 0);
         }
-        else if (navAgent.desiredVelocity.z > 0.2f)
+        else if (navAgent.desiredVelocity.z > 0.1f)
         {
             animator.SetInteger("Direction", 8);
         }
-        else if (navAgent.desiredVelocity.z < -0.2f)
+        else if (navAgent.desiredVelocity.z < -0.1f)
         {
             animator.SetInteger("Direction", 2);
         }
-        else if (navAgent.desiredVelocity.x > 0.2f)
+        else if (navAgent.desiredVelocity.x > 0.1f)
         {
             animator.SetInteger("Direction", 6);
         }
-        else if (navAgent.desiredVelocity.x < -0.2f)
+        else if (navAgent.desiredVelocity.x < -0.1f)
         {
             animator.SetInteger("Direction", 4);
         }

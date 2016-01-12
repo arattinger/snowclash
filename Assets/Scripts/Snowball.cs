@@ -20,6 +20,10 @@ public class Snowball : MonoBehaviour {
     void OnTriggerEnter(Collider other)
     {
         //Debug.Log("other:" + other.tag);
+        if (other.tag == "Enemy")
+        {
+            Destroy(other.gameObject);
+        }
 
         if (other.tag == "Enemy" || other.tag == "Obstacle")
             Destroy(gameObject);
@@ -27,7 +31,7 @@ public class Snowball : MonoBehaviour {
 
     public void ActivateSnowball(Vector3 _target, float distance)
     {
-        //Destroy(gameObject, 5.5f);
+        Destroy(gameObject, 2.5f);
         target = _target;
         isActive = true;
     }

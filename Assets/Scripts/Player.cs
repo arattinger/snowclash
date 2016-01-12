@@ -6,6 +6,8 @@ public class Player : MonoBehaviour {
     public Animator animator;
     public GameObject snowball;
 
+    public static Vector3 playerPos;
+
     // Use this for initialization
     void Start()
     {
@@ -39,6 +41,7 @@ public class Player : MonoBehaviour {
         }
 
         UpdateAnimation();
+        playerPos = transform.position;
     }
 
 
