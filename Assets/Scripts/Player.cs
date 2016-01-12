@@ -4,6 +4,7 @@ using System.Collections;
 public class Player : MonoBehaviour {
     NavMeshAgent navAgent;
     public Animator animator;
+    public GameObject snowball;
 
     // Use this for initialization
     void Start()
@@ -27,6 +28,12 @@ public class Player : MonoBehaviour {
                 if (hit.collider.tag == "Ground" || hit.collider.tag == "Obstacle")
                 {
                     navAgent.SetDestination(hit.point);
+                }
+
+                if (hit.collider.tag == "EnemyCollider")
+                {
+                    GameObject go = (GameObject)Instantiate(snowball, transform.position, Quaternion.identity);
+                    go.GetComponent<Snowball>().ActivateSnowball(hit.point, 0f);
                 }
             }
         }
