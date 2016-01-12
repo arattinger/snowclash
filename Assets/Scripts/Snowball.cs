@@ -6,6 +6,7 @@ public class Snowball : MonoBehaviour {
     Vector3 target;
     float speed = 1.5f;
     bool isActive = false;
+    float damage = 20f;
 
     void Update()
     {
@@ -22,7 +23,7 @@ public class Snowball : MonoBehaviour {
         //Debug.Log("other:" + other.tag);
         if (other.tag == "Enemy")
         {
-            Destroy(other.gameObject);
+            other.GetComponent<Zombie>().DamageAccept(damage);
         }
 
         if (other.tag == "Enemy" || other.tag == "Obstacle")
@@ -31,7 +32,7 @@ public class Snowball : MonoBehaviour {
 
     public void ActivateSnowball(Vector3 _target, float distance)
     {
-        Destroy(gameObject, 2.5f);
+        Destroy(gameObject, 1.8f);
         target = _target;
         isActive = true;
     }

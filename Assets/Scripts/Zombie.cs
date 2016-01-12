@@ -1,13 +1,20 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class Zombie : MonoBehaviour {
     NavMeshAgent navAgent;
     public Animator animator;
+    public Image healthBar;
+
+    float health, maxHealth;
+    float damage = 0.2f;
 
     // Use this for initialization
     void Start()
     {
+        health = maxHealth = 100f;
+
         navAgent = GetComponent<NavMeshAgent>();
         navAgent.updateRotation = false;
     }
@@ -16,6 +23,7 @@ public class Zombie : MonoBehaviour {
     void Update()
     {
         navAgent.SetDestination(Player.playerPos);
+        
         UpdateAnimation();
     }
 
@@ -43,5 +51,22 @@ public class Zombie : MonoBehaviour {
         {
             animator.SetInteger("Direction", 4);
         }
+    }
+
+    public void DamageAccept(float damage)
+    {
+        health -= damage;
+        healthBar.fillAmount = health / maxHealth;
+
+        if (health < 0)
+            Destroy(gameObject);
+    }
+
+
+
+    void OnCollisionStay(Collision collision)
+    {
+        if (collision.gameObject.tag == "Player")
+            collision.gameObject.GetComponent<Player>().DamageAccept(damage);
     }
 }
