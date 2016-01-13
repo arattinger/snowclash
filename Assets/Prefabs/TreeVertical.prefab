@@ -25,8 +25,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 131106}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.513, y: 0, z: -1.695}
-  m_LocalScale: {x: 0.31519225, y: 0.99999994, z: 1.1712737}
+  m_LocalPosition: {x: 1.021, y: -0, z: -0.265}
+  m_LocalScale: {x: 0.1686577, y: 1, z: 0.87088585}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -85,6 +85,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_Name
       value: TreeVerticalCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalScale.x
+      value: 0.1686577
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
