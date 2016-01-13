@@ -80,6 +80,7 @@ public class Player : MonoBehaviour {
         if (navAgent.desiredVelocity == Vector3.zero)
         {
             animator.SetInteger("Direction", 0);
+            //animator.SetTrigger("ToIdle");
         }
         else if (navAgent.desiredVelocity.z > 0.2f)
         {
