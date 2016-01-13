@@ -29,6 +29,8 @@ public class Player : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
+        playerPos = transform.position;
+
         if (Input.GetButtonDown("Fire1"))
         {
             RaycastHit hit;
@@ -40,8 +42,6 @@ public class Player : MonoBehaviour {
                 if (hit.collider.tag == "Ground" || hit.collider.tag == "Obstacle")
                 {
                     navAgent.SetDestination(hit.point);
-                    float angle = Vector2.Angle(new Vector2(transform.position.x, transform.position.z), new Vector2(hit.point.x, hit.point.z));
-                    Debug.Log("angle:" + angle);
 
                     navAgent.Resume();
                     isAttacking = false;
@@ -65,7 +65,6 @@ public class Player : MonoBehaviour {
         if(!isAttacking)
             UpdateAnimation();
 
-        playerPos = transform.position;
     }
 
 
@@ -103,11 +102,18 @@ public class Player : MonoBehaviour {
 
     void UpdateAnimationShooting(Vector3 hit)
     {
-        if (hit.x <= transform.position.x)
-        {
+        float angle = Mathf.Atan2(hit.z - transform.position.z, hit.x - transform.position.x) * Mathf.Rad2Deg;
+        if (angle < 0)
+            angle = 360 + angle;
+
+        if (angle > 45 && angle < 135)
+            animator.SetInteger("Direction", 88);
+        else if (angle >= 135 && angle < 225)
             animator.SetInteger("Direction", 44);
-            Debug.Log("hit:" + animator.GetInteger("Direction"));
-        }
+        else if (angle >= 225 && angle < 315)
+            animator.SetInteger("Direction", 22);
+        else
+            animator.SetInteger("Direction", 66);
     }
 
     public void DamageAccept(float damage)
@@ -132,7 +138,8 @@ public class Player : MonoBehaviour {
         else if (animator.GetInteger("Direction") == 44)
             animator.SetInteger("Direction", -4);
 
-        GameObject go = (GameObject)Instantiate(snowball, transform.position, Quaternion.identity);
+        Vector3 pos = new Vector3(transform.position.x, transform.position.y, transform.position.z + 0.1f);
+        GameObject go = (GameObject)Instantiate(snowball, pos, Quaternion.identity);
         go.GetComponent<Snowball>().ActivateSnowball(throwingPosition, 0f);
     }
 }
