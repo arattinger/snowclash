@@ -11,7 +11,7 @@ public class Player : MonoBehaviour {
     float health, maxHealth;
 
     public static Vector3 playerPos;
-    bool navAgentIsStopped = false;
+    bool isAttacking = false;
 
     // Use this for initialization
     void Start()
@@ -41,7 +41,7 @@ public class Player : MonoBehaviour {
                     Debug.Log("angle:" + angle);
 
                     navAgent.Resume();
-                    navAgentIsStopped = false;
+                    isAttacking = false;
                 }
 
                 if (hit.collider.tag == "EnemyCollider")
@@ -50,23 +50,17 @@ public class Player : MonoBehaviour {
                     go.GetComponent<Snowball>().ActivateSnowball(hit.point, 0f);
 
                     navAgent.Stop();
-                    navAgentIsStopped = true;
+                    isAttacking = true;
 
-                    Debug.Log("hit:" + hit.point.x + " trans:" + transform.position.x);
-                    if (hit.point.x <= transform.position.x)
-                    {
-                        //navAgent.velocity = new Vector3(-1f, 0, 0);
-                        animator.SetInteger("Direction", 4);
-                        animator.SetInteger("Direction", 0);
-                        Debug.Log("hit:" + animator.GetInteger("Direction"));
-                    }
-                    //UpdateAnimationShooting();
+                    
+
+                    UpdateAnimationShooting(hit.point);
 
                 }
             }
         }
 
-        if(!navAgentIsStopped)
+        if(!isAttacking)
             UpdateAnimation();
 
         playerPos = transform.position;
@@ -75,12 +69,17 @@ public class Player : MonoBehaviour {
 
     void UpdateAnimation()
     {
-        //Debug.Log("velocity:" + navAgent.velocity + " desiredVelocity:" + navAgent.desiredVelocity);
 
         if (navAgent.desiredVelocity == Vector3.zero)
         {
-            animator.SetInteger("Direction", 0);
-            //animator.SetTrigger("ToIdle");
+            if(animator.GetInteger("Direction") == 8)
+                animator.SetInteger("Direction", -8);
+            else if (animator.GetInteger("Direction") == 2)
+                animator.SetInteger("Direction", -2);
+            else if (animator.GetInteger("Direction") == 6)
+                animator.SetInteger("Direction", -6);
+            else if (animator.GetInteger("Direction") == 4)
+                animator.SetInteger("Direction", -4);
         }
         else if (navAgent.desiredVelocity.z > 0.2f)
         {
@@ -100,9 +99,13 @@ public class Player : MonoBehaviour {
         }
     }
 
-    void UpdateAnimationShooting(float angle)
+    void UpdateAnimationShooting(Vector3 hit)
     {
-        
+        if (hit.x <= transform.position.x)
+        {
+            animator.SetInteger("Direction", 44);
+            Debug.Log("hit:" + animator.GetInteger("Direction"));
+        }
     }
 
     public void DamageAccept(float damage)

@@ -1,9 +1,105 @@
 fileFormatVersion: 2
-guid: a42e44216d51f9c4c9875c454a69c7d3
-timeCreated: 1452686930
-licenseType: Pro
+guid: 94eddb93284f5b647ab766214aa8d64d
+timeCreated: 1452687963
+licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: _heroine_hammer_1_0
+    21300002: _heroine_hammer_1_1
+    21300004: _heroine_hammer_1_2
+    21300006: _heroine_hammer_1_3
+    21300008: _heroine_hammer_1_4
+    21300010: _heroine_hammer_1_5
+    21300012: _heroine_hammer_1_6
+    21300014: _heroine_hammer_1_7
+    21300016: _heroine_hammer_1_8
+    21300018: _heroine_hammer_1_9
+    21300020: _heroine_hammer_1_10
+    21300022: _heroine_hammer_1_11
+    21300024: _heroine_hammer_1_12
+    21300026: _heroine_hammer_1_13
+    21300028: _heroine_hammer_1_14
+    21300030: _heroine_hammer_1_15
+    21300032: _heroine_hammer_1_16
+    21300034: _heroine_hammer_1_17
+    21300036: _heroine_hammer_1_18
+    21300038: _heroine_hammer_1_19
+    21300040: _heroine_hammer_1_20
+    21300042: _heroine_hammer_1_21
+    21300044: _heroine_hammer_1_22
+    21300046: _heroine_hammer_1_23
+    21300048: _heroine_hammer_1_24
+    21300050: _heroine_hammer_1_25
+    21300052: _heroine_hammer_1_26
+    21300054: _heroine_hammer_1_27
+    21300056: _heroine_hammer_1_28
+    21300058: _heroine_hammer_1_29
+    21300060: _heroine_hammer_1_30
+    21300062: _heroine_hammer_1_31
+    21300064: _heroine_hammer_1_32
+    21300066: _heroine_hammer_1_33
+    21300068: _heroine_hammer_1_34
+    21300070: _heroine_hammer_1_35
+    21300072: _heroine_hammer_1_36
+    21300074: _heroine_hammer_1_37
+    21300076: _heroine_hammer_1_38
+    21300078: _heroine_hammer_1_39
+    21300080: _heroine_hammer_1_40
+    21300082: _heroine_hammer_1_41
+    21300084: _heroine_hammer_1_42
+    21300086: _heroine_hammer_1_43
+    21300088: _heroine_hammer_1_44
+    21300090: _heroine_hammer_1_45
+    21300092: _heroine_hammer_1_46
+    21300094: _heroine_hammer_1_47
+    21300096: _heroine_hammer_1_48
+    21300098: _heroine_hammer_1_49
+    21300100: _heroine_hammer_1_50
+    21300102: _heroine_hammer_1_51
+    21300104: _heroine_hammer_1_52
+    21300106: _heroine_hammer_1_53
+    21300108: _heroine_hammer_1_54
+    21300110: _heroine_hammer_1_55
+    21300112: _heroine_hammer_1_56
+    21300114: _heroine_hammer_1_57
+    21300116: _heroine_hammer_1_58
+    21300118: _heroine_hammer_1_59
+    21300120: _heroine_hammer_1_60
+    21300122: _heroine_hammer_1_61
+    21300124: _heroine_hammer_1_62
+    21300126: _heroine_hammer_1_63
+    21300128: _heroine_hammer_1_64
+    21300130: _heroine_hammer_1_65
+    21300132: _heroine_hammer_1_66
+    21300134: _heroine_hammer_1_67
+    21300136: _heroine_hammer_1_68
+    21300138: _heroine_hammer_1_69
+    21300140: _heroine_hammer_1_70
+    21300142: _heroine_hammer_1_71
+    21300144: _heroine_hammer_1_72
+    21300146: _heroine_hammer_1_73
+    21300148: _heroine_hammer_1_74
+    21300150: _heroine_hammer_1_75
+    21300152: _heroine_hammer_1_76
+    21300154: _heroine_hammer_1_77
+    21300156: _heroine_hammer_1_78
+    21300158: _heroine_hammer_1_79
+    21300160: _heroine_hammer_1_80
+    21300162: _heroine_hammer_1_81
+    21300164: _heroine_hammer_1_82
+    21300166: _heroine_hammer_1_83
+    21300168: _heroine_hammer_1_84
+    21300170: _heroine_hammer_1_85
+    21300172: _heroine_hammer_1_86
+    21300174: _heroine_hammer_1_87
+    21300176: _heroine_hammer_1_88
+    21300178: _heroine_hammer_1_89
+    21300180: _heroine_hammer_1_90
+    21300182: _heroine_hammer_1_91
+    21300184: _heroine_hammer_1_92
+    21300186: _heroine_hammer_1_93
+    21300188: _heroine_hammer_1_94
+    21300190: _heroine_hammer_1_95
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,26 +126,1871 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 0
-  textureType: -1
+  alphaIsTransparency: 1
+  textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: _heroine_hammer_1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 420
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 26}
+        - {x: -17, y: -27}
+        - {x: -12, y: -29}
+        - {x: 11, y: -29}
+        - {x: 14, y: -26}
+        - {x: 14, y: 17}
+        - {x: -4, y: 26}
+    - name: _heroine_hammer_1_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 420
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 26}
+        - {x: -17, y: -27}
+        - {x: -12, y: -29}
+        - {x: 11, y: -29}
+        - {x: 14, y: -26}
+        - {x: 14, y: 17}
+        - {x: -4, y: 26}
+    - name: _heroine_hammer_1_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 420
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 26}
+        - {x: -17, y: -27}
+        - {x: -12, y: -29}
+        - {x: 11, y: -29}
+        - {x: 14, y: -26}
+        - {x: 14, y: 17}
+        - {x: -4, y: 26}
+    - name: _heroine_hammer_1_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 420
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 26}
+        - {x: -17, y: -27}
+        - {x: -12, y: -29}
+        - {x: 11, y: -29}
+        - {x: 14, y: -26}
+        - {x: 14, y: 17}
+        - {x: -4, y: 26}
+    - name: _heroine_hammer_1_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 420
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 26}
+        - {x: -17, y: -27}
+        - {x: -12, y: -29}
+        - {x: 11, y: -29}
+        - {x: 14, y: -26}
+        - {x: 14, y: 17}
+        - {x: -4, y: 26}
+    - name: _heroine_hammer_1_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 420
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 26}
+        - {x: -17, y: -27}
+        - {x: -12, y: -29}
+        - {x: 11, y: -29}
+        - {x: 14, y: -26}
+        - {x: 14, y: 17}
+        - {x: -4, y: 26}
+    - name: _heroine_hammer_1_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 420
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 26}
+        - {x: -17, y: -27}
+        - {x: -12, y: -29}
+        - {x: 11, y: -29}
+        - {x: 14, y: -26}
+        - {x: 14, y: 17}
+        - {x: -4, y: 26}
+    - name: _heroine_hammer_1_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 420
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 26}
+        - {x: -17, y: -27}
+        - {x: -12, y: -29}
+        - {x: 11, y: -29}
+        - {x: 14, y: -26}
+        - {x: 14, y: 17}
+        - {x: -4, y: 26}
+    - name: _heroine_hammer_1_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 420
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 26}
+        - {x: -17, y: -27}
+        - {x: -12, y: -29}
+        - {x: 11, y: -29}
+        - {x: 14, y: -26}
+        - {x: 14, y: 17}
+        - {x: -4, y: 26}
+    - name: _heroine_hammer_1_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 420
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 16}
+        - {x: -15, y: 13}
+        - {x: -19, y: 11}
+        - {x: -19, y: -15}
+        - {x: -17, y: -27}
+        - {x: -13, y: -29}
+        - {x: 11, y: -29}
+        - {x: 14, y: -21}
+        - {x: 14, y: 11}
+        - {x: 9, y: 16}
+    - name: _heroine_hammer_1_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 420
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 26}
+        - {x: -17, y: -27}
+        - {x: -12, y: -29}
+        - {x: 11, y: -29}
+        - {x: 14, y: -26}
+        - {x: 14, y: 17}
+        - {x: -4, y: 26}
+    - name: _heroine_hammer_1_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 420
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 26}
+        - {x: -17, y: -27}
+        - {x: -12, y: -29}
+        - {x: 11, y: -29}
+        - {x: 14, y: -26}
+        - {x: 14, y: 17}
+        - {x: -4, y: 26}
+    - name: _heroine_hammer_1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 30}
+        - {x: -17, y: 28}
+        - {x: -17, y: -22}
+        - {x: -14, y: -29}
+        - {x: 12, y: -29}
+        - {x: 14, y: -27}
+        - {x: 14, y: 10}
+        - {x: -1, y: 30}
+    - name: _heroine_hammer_1_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 360
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 30}
+        - {x: -17, y: 28}
+        - {x: -17, y: -22}
+        - {x: -14, y: -29}
+        - {x: 12, y: -29}
+        - {x: 14, y: -27}
+        - {x: 14, y: 10}
+        - {x: -1, y: 30}
+    - name: _heroine_hammer_1_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 360
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 30}
+        - {x: -17, y: 28}
+        - {x: -17, y: -22}
+        - {x: -14, y: -29}
+        - {x: 12, y: -29}
+        - {x: 14, y: -27}
+        - {x: 14, y: 10}
+        - {x: -1, y: 30}
+    - name: _heroine_hammer_1_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 360
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 30}
+        - {x: -17, y: 28}
+        - {x: -17, y: -22}
+        - {x: -14, y: -29}
+        - {x: 12, y: -29}
+        - {x: 14, y: -27}
+        - {x: 14, y: 10}
+        - {x: -1, y: 30}
+    - name: _heroine_hammer_1_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 360
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 30}
+        - {x: -17, y: 28}
+        - {x: -17, y: -22}
+        - {x: -14, y: -29}
+        - {x: 12, y: -29}
+        - {x: 14, y: -27}
+        - {x: 14, y: 10}
+        - {x: -1, y: 30}
+    - name: _heroine_hammer_1_17
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 360
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 30}
+        - {x: -17, y: 28}
+        - {x: -17, y: -22}
+        - {x: -14, y: -29}
+        - {x: 12, y: -29}
+        - {x: 14, y: -27}
+        - {x: 14, y: 10}
+        - {x: -1, y: 30}
+    - name: _heroine_hammer_1_18
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 360
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 30}
+        - {x: -17, y: 28}
+        - {x: -17, y: -22}
+        - {x: -14, y: -29}
+        - {x: 12, y: -29}
+        - {x: 14, y: -27}
+        - {x: 14, y: 10}
+        - {x: -1, y: 30}
+    - name: _heroine_hammer_1_19
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 360
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 30}
+        - {x: -17, y: 28}
+        - {x: -17, y: -22}
+        - {x: -14, y: -29}
+        - {x: 12, y: -29}
+        - {x: 14, y: -27}
+        - {x: 14, y: 10}
+        - {x: -1, y: 30}
+    - name: _heroine_hammer_1_20
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 360
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 30}
+        - {x: -17, y: 28}
+        - {x: -17, y: -22}
+        - {x: -14, y: -29}
+        - {x: 12, y: -29}
+        - {x: 14, y: -27}
+        - {x: 14, y: 10}
+        - {x: -1, y: 30}
+    - name: _heroine_hammer_1_21
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 360
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 17}
+        - {x: -18, y: 17}
+        - {x: -19, y: 10}
+        - {x: -19, y: -11}
+        - {x: -17, y: -27}
+        - {x: -14, y: -29}
+        - {x: 12, y: -29}
+        - {x: 14, y: -23}
+        - {x: 14, y: 11}
+        - {x: 8, y: 16}
+      - - {x: -16, y: 26}
+        - {x: -14, y: 24}
+        - {x: -11, y: 25}
+        - {x: -11, y: 28}
+        - {x: -13, y: 30}
+        - {x: -16, y: 29}
+    - name: _heroine_hammer_1_22
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 360
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 30}
+        - {x: -17, y: 28}
+        - {x: -17, y: -22}
+        - {x: -14, y: -29}
+        - {x: 12, y: -29}
+        - {x: 14, y: -27}
+        - {x: 14, y: 10}
+        - {x: -1, y: 30}
+    - name: _heroine_hammer_1_23
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 360
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 30}
+        - {x: -17, y: 28}
+        - {x: -17, y: -22}
+        - {x: -14, y: -29}
+        - {x: 12, y: -29}
+        - {x: 14, y: -27}
+        - {x: 14, y: 10}
+        - {x: -1, y: 30}
+    - name: _heroine_hammer_1_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 17}
+        - {x: -14, y: 9}
+        - {x: -14, y: -30}
+        - {x: 14, y: -30}
+        - {x: 14, y: 17}
+    - name: _heroine_hammer_1_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 300
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 17}
+        - {x: -14, y: 9}
+        - {x: -14, y: -30}
+        - {x: 14, y: -30}
+        - {x: 14, y: 17}
+    - name: _heroine_hammer_1_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 300
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 17}
+        - {x: -14, y: 9}
+        - {x: -14, y: -30}
+        - {x: 14, y: -30}
+        - {x: 14, y: 17}
+    - name: _heroine_hammer_1_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 300
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 17}
+        - {x: -14, y: 9}
+        - {x: -14, y: -30}
+        - {x: 14, y: -30}
+        - {x: 14, y: 17}
+    - name: _heroine_hammer_1_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 300
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 17}
+        - {x: -14, y: 9}
+        - {x: -14, y: -30}
+        - {x: 14, y: -30}
+        - {x: 14, y: 17}
+    - name: _heroine_hammer_1_29
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 300
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 17}
+        - {x: -14, y: 9}
+        - {x: -14, y: -30}
+        - {x: 14, y: -30}
+        - {x: 14, y: 17}
+    - name: _heroine_hammer_1_30
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 300
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 17}
+        - {x: -14, y: 9}
+        - {x: -14, y: -30}
+        - {x: 14, y: -30}
+        - {x: 14, y: 17}
+    - name: _heroine_hammer_1_31
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 300
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 17}
+        - {x: -14, y: 9}
+        - {x: -14, y: -30}
+        - {x: 14, y: -30}
+        - {x: 14, y: 17}
+    - name: _heroine_hammer_1_32
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 300
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 17}
+        - {x: -14, y: 9}
+        - {x: -14, y: -30}
+        - {x: 14, y: -30}
+        - {x: 14, y: 17}
+    - name: _heroine_hammer_1_33
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 300
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 17}
+        - {x: -19, y: 17}
+        - {x: -19, y: -23}
+        - {x: -11, y: -28}
+        - {x: 14, y: -28}
+        - {x: 14, y: 6}
+        - {x: 10, y: 12}
+    - name: _heroine_hammer_1_34
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 300
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 17}
+        - {x: -14, y: 9}
+        - {x: -14, y: -30}
+        - {x: 14, y: -30}
+        - {x: 14, y: 17}
+    - name: _heroine_hammer_1_35
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 300
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 17}
+        - {x: -14, y: 9}
+        - {x: -14, y: -30}
+        - {x: 14, y: -30}
+        - {x: 14, y: 17}
+    - name: _heroine_hammer_1_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 14}
+        - {x: 3, y: 17}
+        - {x: -10, y: 17}
+        - {x: -14, y: 13}
+        - {x: -14, y: -30}
+        - {x: 5, y: -30}
+        - {x: 8, y: -29}
+        - {x: 13, y: -24}
+        - {x: 14, y: -9}
+        - {x: 14, y: 7}
+    - name: _heroine_hammer_1_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 240
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 14}
+        - {x: 3, y: 17}
+        - {x: -10, y: 17}
+        - {x: -14, y: 13}
+        - {x: -14, y: -30}
+        - {x: 5, y: -30}
+        - {x: 8, y: -29}
+        - {x: 13, y: -24}
+        - {x: 14, y: -9}
+        - {x: 14, y: 7}
+    - name: _heroine_hammer_1_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 240
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 14}
+        - {x: 3, y: 17}
+        - {x: -10, y: 17}
+        - {x: -14, y: 13}
+        - {x: -14, y: -30}
+        - {x: 5, y: -30}
+        - {x: 8, y: -29}
+        - {x: 13, y: -24}
+        - {x: 14, y: -9}
+        - {x: 14, y: 7}
+    - name: _heroine_hammer_1_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 240
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 14}
+        - {x: 3, y: 17}
+        - {x: -10, y: 17}
+        - {x: -14, y: 13}
+        - {x: -14, y: -30}
+        - {x: 5, y: -30}
+        - {x: 8, y: -29}
+        - {x: 13, y: -24}
+        - {x: 14, y: -9}
+        - {x: 14, y: 7}
+    - name: _heroine_hammer_1_40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 240
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 14}
+        - {x: 3, y: 17}
+        - {x: -10, y: 17}
+        - {x: -14, y: 13}
+        - {x: -14, y: -30}
+        - {x: 5, y: -30}
+        - {x: 8, y: -29}
+        - {x: 13, y: -24}
+        - {x: 14, y: -9}
+        - {x: 14, y: 7}
+    - name: _heroine_hammer_1_41
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 240
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 14}
+        - {x: 3, y: 17}
+        - {x: -10, y: 17}
+        - {x: -14, y: 13}
+        - {x: -14, y: -30}
+        - {x: 5, y: -30}
+        - {x: 8, y: -29}
+        - {x: 13, y: -24}
+        - {x: 14, y: -9}
+        - {x: 14, y: 7}
+    - name: _heroine_hammer_1_42
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 240
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 14}
+        - {x: 3, y: 17}
+        - {x: -10, y: 17}
+        - {x: -14, y: 13}
+        - {x: -14, y: -30}
+        - {x: 5, y: -30}
+        - {x: 8, y: -29}
+        - {x: 13, y: -24}
+        - {x: 14, y: -9}
+        - {x: 14, y: 7}
+    - name: _heroine_hammer_1_43
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 240
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 14}
+        - {x: 3, y: 17}
+        - {x: -10, y: 17}
+        - {x: -14, y: 13}
+        - {x: -14, y: -30}
+        - {x: 5, y: -30}
+        - {x: 8, y: -29}
+        - {x: 13, y: -24}
+        - {x: 14, y: -9}
+        - {x: 14, y: 7}
+    - name: _heroine_hammer_1_44
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 240
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 14}
+        - {x: 3, y: 17}
+        - {x: -10, y: 17}
+        - {x: -14, y: 13}
+        - {x: -14, y: -30}
+        - {x: 5, y: -30}
+        - {x: 8, y: -29}
+        - {x: 13, y: -24}
+        - {x: 14, y: -9}
+        - {x: 14, y: 7}
+    - name: _heroine_hammer_1_45
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 240
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 17}
+        - {x: -19, y: 15}
+        - {x: -19, y: -9}
+        - {x: -11, y: -28}
+        - {x: 13, y: -28}
+        - {x: 14, y: -27}
+        - {x: 14, y: 13}
+        - {x: 9, y: 17}
+    - name: _heroine_hammer_1_46
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 240
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 14}
+        - {x: 3, y: 17}
+        - {x: -10, y: 17}
+        - {x: -14, y: 13}
+        - {x: -14, y: -30}
+        - {x: 5, y: -30}
+        - {x: 8, y: -29}
+        - {x: 13, y: -24}
+        - {x: 14, y: -9}
+        - {x: 14, y: 7}
+    - name: _heroine_hammer_1_47
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 240
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 14}
+        - {x: 3, y: 17}
+        - {x: -10, y: 17}
+        - {x: -14, y: 13}
+        - {x: -14, y: -30}
+        - {x: 5, y: -30}
+        - {x: 8, y: -29}
+        - {x: 13, y: -24}
+        - {x: 14, y: -9}
+        - {x: 14, y: 7}
+    - name: _heroine_hammer_1_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 19}
+        - {x: -15, y: 10}
+        - {x: -15, y: -29}
+        - {x: 13, y: -29}
+        - {x: 16, y: -21}
+        - {x: 16, y: 18}
+        - {x: 15, y: 19}
+    - name: _heroine_hammer_1_49
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 180
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 19}
+        - {x: -15, y: 10}
+        - {x: -15, y: -29}
+        - {x: 13, y: -29}
+        - {x: 16, y: -21}
+        - {x: 16, y: 18}
+        - {x: 15, y: 19}
+    - name: _heroine_hammer_1_50
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 180
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 19}
+        - {x: -15, y: 10}
+        - {x: -15, y: -29}
+        - {x: 13, y: -29}
+        - {x: 16, y: -21}
+        - {x: 16, y: 18}
+        - {x: 15, y: 19}
+    - name: _heroine_hammer_1_51
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 180
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 19}
+        - {x: -15, y: 10}
+        - {x: -15, y: -29}
+        - {x: 13, y: -29}
+        - {x: 16, y: -21}
+        - {x: 16, y: 18}
+        - {x: 15, y: 19}
+    - name: _heroine_hammer_1_52
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 180
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 19}
+        - {x: -15, y: 10}
+        - {x: -15, y: -29}
+        - {x: 13, y: -29}
+        - {x: 16, y: -21}
+        - {x: 16, y: 18}
+        - {x: 15, y: 19}
+    - name: _heroine_hammer_1_53
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 180
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 19}
+        - {x: -15, y: 10}
+        - {x: -15, y: -29}
+        - {x: 13, y: -29}
+        - {x: 16, y: -21}
+        - {x: 16, y: 18}
+        - {x: 15, y: 19}
+    - name: _heroine_hammer_1_54
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 180
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 19}
+        - {x: -15, y: 10}
+        - {x: -15, y: -29}
+        - {x: 13, y: -29}
+        - {x: 16, y: -21}
+        - {x: 16, y: 18}
+        - {x: 15, y: 19}
+    - name: _heroine_hammer_1_55
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 180
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 19}
+        - {x: -15, y: 10}
+        - {x: -15, y: -29}
+        - {x: 13, y: -29}
+        - {x: 16, y: -21}
+        - {x: 16, y: 18}
+        - {x: 15, y: 19}
+    - name: _heroine_hammer_1_56
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 180
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 19}
+        - {x: -15, y: 10}
+        - {x: -15, y: -29}
+        - {x: 13, y: -29}
+        - {x: 16, y: -21}
+        - {x: 16, y: 18}
+        - {x: 15, y: 19}
+    - name: _heroine_hammer_1_57
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 180
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 13}
+        - {x: -15, y: 10}
+        - {x: -15, y: -28}
+        - {x: -14, y: -29}
+        - {x: 13, y: -29}
+        - {x: 16, y: -20}
+        - {x: 16, y: 13}
+    - name: _heroine_hammer_1_58
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 180
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 19}
+        - {x: -15, y: 10}
+        - {x: -15, y: -29}
+        - {x: 13, y: -29}
+        - {x: 16, y: -21}
+        - {x: 16, y: 18}
+        - {x: 15, y: 19}
+    - name: _heroine_hammer_1_59
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 180
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 19}
+        - {x: -15, y: 10}
+        - {x: -15, y: -29}
+        - {x: 13, y: -29}
+        - {x: 16, y: -21}
+        - {x: 16, y: 18}
+        - {x: 15, y: 19}
+    - name: _heroine_hammer_1_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 18}
+        - {x: 3, y: 18}
+        - {x: -7, y: 15}
+        - {x: -15, y: 7}
+        - {x: -15, y: -28}
+        - {x: -11, y: -29}
+        - {x: 4, y: -29}
+        - {x: 8, y: -28}
+        - {x: 12, y: -25}
+        - {x: 15, y: 5}
+        - {x: 15, y: 14}
+    - name: _heroine_hammer_1_61
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 120
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 18}
+        - {x: 3, y: 18}
+        - {x: -7, y: 15}
+        - {x: -15, y: 7}
+        - {x: -15, y: -28}
+        - {x: -11, y: -29}
+        - {x: 4, y: -29}
+        - {x: 8, y: -28}
+        - {x: 12, y: -25}
+        - {x: 15, y: 5}
+        - {x: 15, y: 14}
+    - name: _heroine_hammer_1_62
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 120
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 18}
+        - {x: 3, y: 18}
+        - {x: -7, y: 15}
+        - {x: -15, y: 7}
+        - {x: -15, y: -28}
+        - {x: -11, y: -29}
+        - {x: 4, y: -29}
+        - {x: 8, y: -28}
+        - {x: 12, y: -25}
+        - {x: 15, y: 5}
+        - {x: 15, y: 14}
+    - name: _heroine_hammer_1_63
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 120
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 18}
+        - {x: 3, y: 18}
+        - {x: -7, y: 15}
+        - {x: -15, y: 7}
+        - {x: -15, y: -28}
+        - {x: -11, y: -29}
+        - {x: 4, y: -29}
+        - {x: 8, y: -28}
+        - {x: 12, y: -25}
+        - {x: 15, y: 5}
+        - {x: 15, y: 14}
+    - name: _heroine_hammer_1_64
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 120
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 18}
+        - {x: 3, y: 18}
+        - {x: -7, y: 15}
+        - {x: -15, y: 7}
+        - {x: -15, y: -28}
+        - {x: -11, y: -29}
+        - {x: 4, y: -29}
+        - {x: 8, y: -28}
+        - {x: 12, y: -25}
+        - {x: 15, y: 5}
+        - {x: 15, y: 14}
+    - name: _heroine_hammer_1_65
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 120
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 18}
+        - {x: 3, y: 18}
+        - {x: -7, y: 15}
+        - {x: -15, y: 7}
+        - {x: -15, y: -28}
+        - {x: -11, y: -29}
+        - {x: 4, y: -29}
+        - {x: 8, y: -28}
+        - {x: 12, y: -25}
+        - {x: 15, y: 5}
+        - {x: 15, y: 14}
+    - name: _heroine_hammer_1_66
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 120
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 18}
+        - {x: 3, y: 18}
+        - {x: -7, y: 15}
+        - {x: -15, y: 7}
+        - {x: -15, y: -28}
+        - {x: -11, y: -29}
+        - {x: 4, y: -29}
+        - {x: 8, y: -28}
+        - {x: 12, y: -25}
+        - {x: 15, y: 5}
+        - {x: 15, y: 14}
+    - name: _heroine_hammer_1_67
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 120
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 18}
+        - {x: 3, y: 18}
+        - {x: -7, y: 15}
+        - {x: -15, y: 7}
+        - {x: -15, y: -28}
+        - {x: -11, y: -29}
+        - {x: 4, y: -29}
+        - {x: 8, y: -28}
+        - {x: 12, y: -25}
+        - {x: 15, y: 5}
+        - {x: 15, y: 14}
+    - name: _heroine_hammer_1_68
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 120
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 18}
+        - {x: 3, y: 18}
+        - {x: -7, y: 15}
+        - {x: -15, y: 7}
+        - {x: -15, y: -28}
+        - {x: -11, y: -29}
+        - {x: 4, y: -29}
+        - {x: 8, y: -28}
+        - {x: 12, y: -25}
+        - {x: 15, y: 5}
+        - {x: 15, y: 14}
+    - name: _heroine_hammer_1_69
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 120
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 14}
+        - {x: -7, y: 14}
+        - {x: -15, y: 10}
+        - {x: -15, y: -29}
+        - {x: 12, y: -29}
+        - {x: 15, y: -21}
+        - {x: 15, y: 7}
+    - name: _heroine_hammer_1_70
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 120
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 18}
+        - {x: 3, y: 18}
+        - {x: -7, y: 15}
+        - {x: -15, y: 7}
+        - {x: -15, y: -28}
+        - {x: -11, y: -29}
+        - {x: 4, y: -29}
+        - {x: 8, y: -28}
+        - {x: 12, y: -25}
+        - {x: 15, y: 5}
+        - {x: 15, y: 14}
+    - name: _heroine_hammer_1_71
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 120
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 18}
+        - {x: 3, y: 18}
+        - {x: -7, y: 15}
+        - {x: -15, y: 7}
+        - {x: -15, y: -28}
+        - {x: -11, y: -29}
+        - {x: 4, y: -29}
+        - {x: 8, y: -28}
+        - {x: 12, y: -25}
+        - {x: 15, y: 5}
+        - {x: 15, y: 14}
+    - name: _heroine_hammer_1_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 60
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 21}
+        - {x: -15, y: 13}
+        - {x: -15, y: -21}
+        - {x: -12, y: -30}
+        - {x: 10, y: -30}
+        - {x: 14, y: -28}
+        - {x: 14, y: 17}
+        - {x: 12, y: 21}
+    - name: _heroine_hammer_1_73
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 60
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 21}
+        - {x: -15, y: 13}
+        - {x: -15, y: -21}
+        - {x: -12, y: -30}
+        - {x: 10, y: -30}
+        - {x: 14, y: -28}
+        - {x: 14, y: 17}
+        - {x: 12, y: 21}
+    - name: _heroine_hammer_1_74
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 60
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 21}
+        - {x: -15, y: 13}
+        - {x: -15, y: -21}
+        - {x: -12, y: -30}
+        - {x: 10, y: -30}
+        - {x: 14, y: -28}
+        - {x: 14, y: 17}
+        - {x: 12, y: 21}
+    - name: _heroine_hammer_1_75
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 60
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 21}
+        - {x: -15, y: 13}
+        - {x: -15, y: -21}
+        - {x: -12, y: -30}
+        - {x: 10, y: -30}
+        - {x: 14, y: -28}
+        - {x: 14, y: 17}
+        - {x: 12, y: 21}
+    - name: _heroine_hammer_1_76
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 60
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 21}
+        - {x: -15, y: 13}
+        - {x: -15, y: -21}
+        - {x: -12, y: -30}
+        - {x: 10, y: -30}
+        - {x: 14, y: -28}
+        - {x: 14, y: 17}
+        - {x: 12, y: 21}
+    - name: _heroine_hammer_1_77
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 60
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 21}
+        - {x: -15, y: 13}
+        - {x: -15, y: -21}
+        - {x: -12, y: -30}
+        - {x: 10, y: -30}
+        - {x: 14, y: -28}
+        - {x: 14, y: 17}
+        - {x: 12, y: 21}
+    - name: _heroine_hammer_1_78
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 60
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 21}
+        - {x: -15, y: 13}
+        - {x: -15, y: -21}
+        - {x: -12, y: -30}
+        - {x: 10, y: -30}
+        - {x: 14, y: -28}
+        - {x: 14, y: 17}
+        - {x: 12, y: 21}
+    - name: _heroine_hammer_1_79
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 60
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 21}
+        - {x: -15, y: 13}
+        - {x: -15, y: -21}
+        - {x: -12, y: -30}
+        - {x: 10, y: -30}
+        - {x: 14, y: -28}
+        - {x: 14, y: 17}
+        - {x: 12, y: 21}
+    - name: _heroine_hammer_1_80
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 60
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 21}
+        - {x: -15, y: 13}
+        - {x: -15, y: -21}
+        - {x: -12, y: -30}
+        - {x: 10, y: -30}
+        - {x: 14, y: -28}
+        - {x: 14, y: 17}
+        - {x: 12, y: 21}
+    - name: _heroine_hammer_1_81
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 60
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 21}
+        - {x: -15, y: 8}
+        - {x: -15, y: -27}
+        - {x: -12, y: -30}
+        - {x: 7, y: -30}
+        - {x: 15, y: -27}
+        - {x: 17, y: -19}
+        - {x: 17, y: 15}
+        - {x: 10, y: 21}
+    - name: _heroine_hammer_1_82
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 60
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 21}
+        - {x: -15, y: 13}
+        - {x: -15, y: -21}
+        - {x: -12, y: -30}
+        - {x: 10, y: -30}
+        - {x: 14, y: -28}
+        - {x: 14, y: 17}
+        - {x: 12, y: 21}
+    - name: _heroine_hammer_1_83
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 60
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 21}
+        - {x: -15, y: 13}
+        - {x: -15, y: -21}
+        - {x: -12, y: -30}
+        - {x: 10, y: -30}
+        - {x: 14, y: -28}
+        - {x: 14, y: 17}
+        - {x: 12, y: 21}
+    - name: _heroine_hammer_1_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 14}
+        - {x: -15, y: 6}
+        - {x: -15, y: -14}
+        - {x: -13, y: -26}
+        - {x: -10, y: -30}
+        - {x: 7, y: -30}
+        - {x: 14, y: -28}
+        - {x: 14, y: 8}
+        - {x: 6, y: 14}
+    - name: _heroine_hammer_1_85
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 14}
+        - {x: -15, y: 6}
+        - {x: -15, y: -14}
+        - {x: -13, y: -26}
+        - {x: -10, y: -30}
+        - {x: 7, y: -30}
+        - {x: 14, y: -28}
+        - {x: 14, y: 8}
+        - {x: 6, y: 14}
+    - name: _heroine_hammer_1_86
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 14}
+        - {x: -15, y: 6}
+        - {x: -15, y: -14}
+        - {x: -13, y: -26}
+        - {x: -10, y: -30}
+        - {x: 7, y: -30}
+        - {x: 14, y: -28}
+        - {x: 14, y: 8}
+        - {x: 6, y: 14}
+    - name: _heroine_hammer_1_87
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 14}
+        - {x: -15, y: 6}
+        - {x: -15, y: -14}
+        - {x: -13, y: -26}
+        - {x: -10, y: -30}
+        - {x: 7, y: -30}
+        - {x: 14, y: -28}
+        - {x: 14, y: 8}
+        - {x: 6, y: 14}
+    - name: _heroine_hammer_1_88
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 14}
+        - {x: -15, y: 6}
+        - {x: -15, y: -14}
+        - {x: -13, y: -26}
+        - {x: -10, y: -30}
+        - {x: 7, y: -30}
+        - {x: 14, y: -28}
+        - {x: 14, y: 8}
+        - {x: 6, y: 14}
+    - name: _heroine_hammer_1_89
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 14}
+        - {x: -15, y: 6}
+        - {x: -15, y: -14}
+        - {x: -13, y: -26}
+        - {x: -10, y: -30}
+        - {x: 7, y: -30}
+        - {x: 14, y: -28}
+        - {x: 14, y: 8}
+        - {x: 6, y: 14}
+    - name: _heroine_hammer_1_90
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 14}
+        - {x: -15, y: 6}
+        - {x: -15, y: -14}
+        - {x: -13, y: -26}
+        - {x: -10, y: -30}
+        - {x: 7, y: -30}
+        - {x: 14, y: -28}
+        - {x: 14, y: 8}
+        - {x: 6, y: 14}
+    - name: _heroine_hammer_1_91
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 14}
+        - {x: -15, y: 6}
+        - {x: -15, y: -14}
+        - {x: -13, y: -26}
+        - {x: -10, y: -30}
+        - {x: 7, y: -30}
+        - {x: 14, y: -28}
+        - {x: 14, y: 8}
+        - {x: 6, y: 14}
+    - name: _heroine_hammer_1_92
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 14}
+        - {x: -15, y: 6}
+        - {x: -15, y: -14}
+        - {x: -13, y: -26}
+        - {x: -10, y: -30}
+        - {x: 7, y: -30}
+        - {x: 14, y: -28}
+        - {x: 14, y: 8}
+        - {x: 6, y: 14}
+    - name: _heroine_hammer_1_93
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 15}
+        - {x: -15, y: 7}
+        - {x: -15, y: -14}
+        - {x: -13, y: -26}
+        - {x: -10, y: -30}
+        - {x: 6, y: -30}
+        - {x: 15, y: -27}
+        - {x: 17, y: -7}
+        - {x: 17, y: 14}
+        - {x: 13, y: 15}
+    - name: _heroine_hammer_1_94
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 14}
+        - {x: -15, y: 6}
+        - {x: -15, y: -14}
+        - {x: -13, y: -26}
+        - {x: -10, y: -30}
+        - {x: 7, y: -30}
+        - {x: 14, y: -28}
+        - {x: 14, y: 8}
+        - {x: 6, y: 14}
+    - name: _heroine_hammer_1_95
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 14}
+        - {x: -15, y: 6}
+        - {x: -15, y: -14}
+        - {x: -13, y: -26}
+        - {x: -10, y: -30}
+        - {x: 7, y: -30}
+        - {x: 14, y: -28}
+        - {x: 14, y: 8}
+        - {x: 6, y: 14}
     outline: []
   spritePackingTag: 
   userData: 
