@@ -66,8 +66,8 @@ public class Player : MonoBehaviour {
             }
         }
 
-        if(!navAgentIsStopped)
-            UpdateAnimation();
+        /*if(!navAgentIsStopped)
+            UpdateAnimation();*/
 
         playerPos = transform.position;
     }
