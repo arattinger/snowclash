@@ -711,7 +711,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &766307720
 Transform:
   m_ObjectHideFlags: 0
@@ -1351,6 +1351,7 @@ GameObject:
   - 4: {fileID: 1444159975}
   - 212: {fileID: 1444159976}
   - 95: {fileID: 1444159977}
+  - 114: {fileID: 1444159978}
   m_Layer: 0
   m_Name: 2DPlayer
   m_TagString: Untagged
@@ -1419,6 +1420,18 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &1444159978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1444159974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da26dc60bfae3d54f90616444eccd0cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1174527648}
 --- !u!1 &1658164918
 GameObject:
   m_ObjectHideFlags: 0

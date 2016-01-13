@@ -79,7 +79,7 @@ TextureImporter:
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -89,7 +89,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -98,8 +98,8 @@ TextureImporter:
   cubemapConvolutionSteps: 8
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-  textureFormat: -1
-  maxTextureSize: 2048
+  textureFormat: -3
+  maxTextureSize: 512
   textureSettings:
     filterMode: 0
     aniso: 16
@@ -109,11 +109,12 @@ TextureImporter:
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
+  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
@@ -131,6 +132,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 20.5}
+        - {x: -13, y: 18.5}
+        - {x: -13, y: -22.5}
+        - {x: 14, y: -22.5}
+        - {x: 14, y: 13.5}
+        - {x: 12, y: 20.5}
     - name: heroine_1
       rect:
         serializedVersion: 2
@@ -141,6 +149,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 21.5}
+        - {x: -13, y: 15.5}
+        - {x: -13, y: -20.5}
+        - {x: -12, y: -22.5}
+        - {x: 14, y: -22.5}
+        - {x: 14, y: 9.5}
+        - {x: 8, y: 21.5}
     - name: heroine_2
       rect:
         serializedVersion: 2
@@ -151,6 +167,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 20.5}
+        - {x: -13, y: 19.5}
+        - {x: -13, y: -22.5}
+        - {x: 13, y: -22.5}
+        - {x: 14, y: -21.5}
+        - {x: 14, y: 17.5}
+        - {x: 8, y: 20.5}
     - name: heroine_3
       rect:
         serializedVersion: 2
@@ -161,6 +185,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 20.5}
+        - {x: -13, y: 18.5}
+        - {x: -13, y: -22.5}
+        - {x: 14, y: -22.5}
+        - {x: 14, y: 17.5}
+        - {x: 12, y: 20.5}
     - name: heroine_4
       rect:
         serializedVersion: 2
@@ -171,6 +202,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 21.5}
+        - {x: -13, y: 19.5}
+        - {x: -13, y: -22.5}
+        - {x: 12, y: -22.5}
+        - {x: 14, y: -15.5}
+        - {x: 14, y: 13.5}
+        - {x: 8, y: 21.5}
     - name: heroine_5
       rect:
         serializedVersion: 2
@@ -181,6 +220,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 20.5}
+        - {x: -13, y: 13.5}
+        - {x: -13, y: -22.5}
+        - {x: 12, y: -22.5}
+        - {x: 14, y: -15.5}
+        - {x: 14, y: 13.5}
+        - {x: 7, y: 20.5}
     - name: heroine_6
       rect:
         serializedVersion: 2
@@ -191,6 +238,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 20.5}
+        - {x: -13, y: 13.5}
+        - {x: -13, y: -20.5}
+        - {x: -12, y: -22.5}
+        - {x: 14, y: -22.5}
+        - {x: 14, y: 8.5}
+        - {x: 8, y: 20.5}
     - name: heroine_7
       rect:
         serializedVersion: 2
@@ -201,6 +256,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 21.5}
+        - {x: -13, y: 14.5}
+        - {x: -13, y: -10.5}
+        - {x: -12, y: -20.5}
+        - {x: -11, y: -22.5}
+        - {x: 14, y: -22.5}
+        - {x: 14, y: 9.5}
+        - {x: 8, y: 21.5}
     - name: heroine_8
       rect:
         serializedVersion: 2
@@ -211,6 +275,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 20.5}
+        - {x: -13, y: 18.5}
+        - {x: -13, y: -22.5}
+        - {x: 14, y: -22.5}
+        - {x: 14, y: 11.5}
+        - {x: 7, y: 20.5}
     - name: heroine_9
       rect:
         serializedVersion: 2
@@ -221,6 +292,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 20.5}
+        - {x: -13, y: 17.5}
+        - {x: -13, y: -22.5}
+        - {x: 14, y: -22.5}
+        - {x: 14, y: 8.5}
+        - {x: 8, y: 20.5}
     - name: heroine_10
       rect:
         serializedVersion: 2
@@ -231,6 +309,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 21.5}
+        - {x: -13, y: 20.5}
+        - {x: -13, y: -22.5}
+        - {x: 10, y: -22.5}
+        - {x: 14, y: -10.5}
+        - {x: 14, y: 16.5}
+        - {x: 12, y: 21.5}
     - name: heroine_11
       rect:
         serializedVersion: 2
@@ -241,6 +327,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 20.5}
+        - {x: -13, y: 14.5}
+        - {x: -13, y: -20.5}
+        - {x: -12, y: -22.5}
+        - {x: 14, y: -22.5}
+        - {x: 14, y: 10.5}
+        - {x: 6, y: 20.5}
     - name: heroine_12
       rect:
         serializedVersion: 2
@@ -251,6 +345,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 18.5}
+        - {x: -13, y: 15.5}
+        - {x: -13, y: -22.5}
+        - {x: 13, y: -22.5}
+        - {x: 13, y: 14.5}
+        - {x: 10, y: 18.5}
     - name: heroine_13
       rect:
         serializedVersion: 2
@@ -261,6 +362,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 19.5}
+        - {x: -7, y: 19.5}
+        - {x: -13, y: 17.5}
+        - {x: -13, y: -20.5}
+        - {x: -10, y: -22.5}
+        - {x: 8, y: -22.5}
+        - {x: 11, y: -19.5}
+        - {x: 12, y: -4.5}
+        - {x: 12, y: 12.5}
     - name: heroine_14
       rect:
         serializedVersion: 2
@@ -271,6 +382,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 18.5}
+        - {x: -13, y: 14.5}
+        - {x: -13, y: -22.5}
+        - {x: 13, y: -22.5}
+        - {x: 13, y: 11.5}
+        - {x: 7, y: 18.5}
     - name: heroine_15
       rect:
         serializedVersion: 2
@@ -281,6 +399,12 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 18.5}
+        - {x: -13, y: -22.5}
+        - {x: 16, y: -22.5}
+        - {x: 16, y: 5.5}
+        - {x: 11, y: 18.5}
     - name: heroine_16
       rect:
         serializedVersion: 2
@@ -291,6 +415,12 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 19.5}
+        - {x: -13, y: -22.5}
+        - {x: 15, y: -22.5}
+        - {x: 15, y: 12.5}
+        - {x: 7, y: 19.5}
     - name: heroine_17
       rect:
         serializedVersion: 2
@@ -301,6 +431,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 18.5}
+        - {x: -13, y: 16.5}
+        - {x: -13, y: -22.5}
+        - {x: 12, y: -22.5}
+        - {x: 13, y: -21.5}
+        - {x: 13, y: 11.5}
+        - {x: 7, y: 18.5}
     - name: heroine_18
       rect:
         serializedVersion: 2
@@ -311,6 +449,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 18.5}
+        - {x: -11, y: 13.5}
+        - {x: -13, y: 6.5}
+        - {x: -13, y: -20.5}
+        - {x: -12, y: -22.5}
+        - {x: 13, y: -22.5}
+        - {x: 13, y: 18.5}
     - name: heroine_19
       rect:
         serializedVersion: 2
@@ -321,6 +467,12 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 19.5}
+        - {x: -13, y: 18.5}
+        - {x: -13, y: -22.5}
+        - {x: 12, y: -22.5}
+        - {x: 12, y: 19.5}
     - name: heroine_20
       rect:
         serializedVersion: 2
@@ -331,6 +483,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 18.5}
+        - {x: -13, y: 18.5}
+        - {x: -13, y: -22.5}
+        - {x: 12, y: -22.5}
+        - {x: 13, y: -20.5}
+        - {x: 13, y: 9.5}
     - name: heroine_21
       rect:
         serializedVersion: 2
@@ -341,6 +500,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 18.5}
+        - {x: -13, y: 8.5}
+        - {x: -13, y: -11.5}
+        - {x: -12, y: -20.5}
+        - {x: -11, y: -22.5}
+        - {x: 13, y: -22.5}
+        - {x: 13, y: 12.5}
+        - {x: 7, y: 18.5}
     - name: heroine_22
       rect:
         serializedVersion: 2
@@ -351,6 +519,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 19.5}
+        - {x: -13, y: 17.5}
+        - {x: -13, y: -22.5}
+        - {x: 11, y: -22.5}
+        - {x: 12, y: -11.5}
+        - {x: 12, y: 14.5}
+        - {x: 8, y: 19.5}
     - name: heroine_23
       rect:
         serializedVersion: 2
@@ -361,6 +537,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 18.5}
+        - {x: -9, y: 18.5}
+        - {x: -11, y: 13.5}
+        - {x: -13, y: 6.5}
+        - {x: -13, y: -22.5}
+        - {x: 12, y: -22.5}
+        - {x: 13, y: -20.5}
+        - {x: 13, y: 10.5}
     - name: heroine_24
       rect:
         serializedVersion: 2
@@ -371,6 +556,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 18.5}
+        - {x: -14, y: 16.5}
+        - {x: -14, y: -22.5}
+        - {x: 11, y: -22.5}
+        - {x: 12, y: -18.5}
+        - {x: 12, y: 17.5}
+        - {x: 11, y: 18.5}
     - name: heroine_25
       rect:
         serializedVersion: 2
@@ -381,6 +574,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 19.5}
+        - {x: -13, y: 12.5}
+        - {x: -13, y: -22.5}
+        - {x: 11, y: -22.5}
+        - {x: 12, y: -21.5}
+        - {x: 12, y: 11.5}
+        - {x: 8, y: 19.5}
     - name: heroine_26
       rect:
         serializedVersion: 2
@@ -391,6 +592,12 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: -22.5}
+        - {x: 12, y: -22.5}
+        - {x: 12, y: 18.5}
+        - {x: -9, y: 18.5}
+        - {x: -14, y: 14.5}
     - name: heroine_27
       rect:
         serializedVersion: 2
@@ -399,8 +606,17 @@ TextureImporter:
         width: 32
         height: 45
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 18.5}
+        - {x: -14, y: 16.5}
+        - {x: -15, y: 10.5}
+        - {x: -16, y: 2.5}
+        - {x: -16, y: -22.5}
+        - {x: 12, y: -22.5}
+        - {x: 12, y: 15.5}
+        - {x: 9, y: 18.5}
     - name: heroine_28
       rect:
         serializedVersion: 2
@@ -411,6 +627,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 19.5}
+        - {x: -16, y: 10.5}
+        - {x: -16, y: -22.5}
+        - {x: 12, y: -22.5}
+        - {x: 12, y: 17.5}
+        - {x: 7, y: 19.5}
     - name: heroine_29
       rect:
         serializedVersion: 2
@@ -421,6 +644,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 18.5}
+        - {x: -14, y: 13.5}
+        - {x: -14, y: -22.5}
+        - {x: 12, y: -22.5}
+        - {x: 12, y: 15.5}
+        - {x: 9, y: 18.5}
     - name: heroine_30
       rect:
         serializedVersion: 2
@@ -431,6 +661,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 18.5}
+        - {x: -14, y: 14.5}
+        - {x: -14, y: -22.5}
+        - {x: 11, y: -22.5}
+        - {x: 12, y: -20.5}
+        - {x: 12, y: 17.5}
+        - {x: 10, y: 18.5}
     - name: heroine_31
       rect:
         serializedVersion: 2
@@ -441,6 +679,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 19.5}
+        - {x: -13, y: 17.5}
+        - {x: -13, y: -22.5}
+        - {x: 12, y: -22.5}
+        - {x: 12, y: 16.5}
+        - {x: 9, y: 19.5}
     - name: heroine_32
       rect:
         serializedVersion: 2
@@ -449,8 +694,16 @@ TextureImporter:
         width: 32
         height: 45
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 18.5}
+        - {x: -14, y: 11.5}
+        - {x: -14, y: -16.5}
+        - {x: -10, y: -22.5}
+        - {x: 12, y: -22.5}
+        - {x: 12, y: 15.5}
+        - {x: 8, y: 18.5}
     - name: heroine_33
       rect:
         serializedVersion: 2
@@ -461,6 +714,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 18.5}
+        - {x: -9, y: 18.5}
+        - {x: -14, y: 16.5}
+        - {x: -14, y: -22.5}
+        - {x: 10, y: -22.5}
+        - {x: 11, y: -19.5}
+        - {x: 12, y: -13.5}
+        - {x: 12, y: 11.5}
     - name: heroine_34
       rect:
         serializedVersion: 2
@@ -471,6 +733,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 19.5}
+        - {x: -13, y: 16.5}
+        - {x: -13, y: -22.5}
+        - {x: 12, y: -22.5}
+        - {x: 12, y: 15.5}
+        - {x: 8, y: 19.5}
     - name: heroine_35
       rect:
         serializedVersion: 2
@@ -481,6 +750,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 18.5}
+        - {x: -14, y: 11.5}
+        - {x: -14, y: -22.5}
+        - {x: 11, y: -22.5}
+        - {x: 12, y: -20.5}
+        - {x: 12, y: 11.5}
+        - {x: 8, y: 18.5}
     - name: heroine_36
       rect:
         serializedVersion: 2
@@ -491,6 +768,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 19.5}
+        - {x: -15, y: 11.5}
+        - {x: -15, y: -10.5}
+        - {x: -12, y: -22.5}
+        - {x: 12, y: -22.5}
+        - {x: 12, y: 17.5}
+        - {x: 8, y: 19.5}
     - name: heroine_37
       rect:
         serializedVersion: 2
@@ -501,6 +786,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 20.5}
+        - {x: -15, y: 12.5}
+        - {x: -15, y: -22.5}
+        - {x: 11, y: -22.5}
+        - {x: 12, y: -21.5}
+        - {x: 12, y: 15.5}
+        - {x: 7, y: 20.5}
     - name: heroine_38
       rect:
         serializedVersion: 2
@@ -511,6 +804,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 19.5}
+        - {x: -15, y: 12.5}
+        - {x: -15, y: -11.5}
+        - {x: -12, y: -22.5}
+        - {x: 12, y: -22.5}
+        - {x: 12, y: 17.5}
+        - {x: 9, y: 19.5}
     - name: heroine_39
       rect:
         serializedVersion: 2
@@ -521,6 +822,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 19.5}
+        - {x: -15, y: 9.5}
+        - {x: -15, y: -22.5}
+        - {x: 12, y: -22.5}
+        - {x: 12, y: 18.5}
+        - {x: 10, y: 19.5}
     - name: heroine_40
       rect:
         serializedVersion: 2
@@ -531,6 +839,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 20.5}
+        - {x: -15, y: 10.5}
+        - {x: -15, y: -5.5}
+        - {x: -14, y: -17.5}
+        - {x: -10, y: -22.5}
+        - {x: 9, y: -22.5}
+        - {x: 12, y: -18.5}
+        - {x: 12, y: 14.5}
+        - {x: 5, y: 20.5}
     - name: heroine_41
       rect:
         serializedVersion: 2
@@ -541,6 +859,12 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 19.5}
+        - {x: -15, y: -22.5}
+        - {x: 12, y: -22.5}
+        - {x: 12, y: 17.5}
+        - {x: 8, y: 19.5}
     - name: heroine_42
       rect:
         serializedVersion: 2
@@ -551,6 +875,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 19.5}
+        - {x: -15, y: 13.5}
+        - {x: -15, y: -12.5}
+        - {x: -13, y: -22.5}
+        - {x: 12, y: -22.5}
+        - {x: 12, y: 13.5}
+        - {x: 9, y: 19.5}
     - name: heroine_43
       rect:
         serializedVersion: 2
@@ -561,6 +893,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 20.5}
+        - {x: -15, y: 10.5}
+        - {x: -15, y: -2.5}
+        - {x: -13, y: -20.5}
+        - {x: -10, y: -22.5}
+        - {x: 12, y: -22.5}
+        - {x: 12, y: 16.5}
+        - {x: 8, y: 20.5}
     - name: heroine_44
       rect:
         serializedVersion: 2
@@ -571,6 +912,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 19.5}
+        - {x: -15, y: 9.5}
+        - {x: -15, y: -8.5}
+        - {x: -12, y: -20.5}
+        - {x: -11, y: -22.5}
+        - {x: 12, y: -22.5}
+        - {x: 12, y: 13.5}
+        - {x: 7, y: 19.5}
     - name: heroine_45
       rect:
         serializedVersion: 2
@@ -581,6 +931,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 19.5}
+        - {x: -10, y: 19.5}
+        - {x: -15, y: 9.5}
+        - {x: -15, y: -7.5}
+        - {x: -14, y: -17.5}
+        - {x: -10, y: -22.5}
+        - {x: 8, y: -22.5}
+        - {x: 11, y: -19.5}
+        - {x: 12, y: -2.5}
+        - {x: 12, y: 13.5}
     - name: heroine_46
       rect:
         serializedVersion: 2
@@ -591,6 +952,12 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 20.5}
+        - {x: -15, y: 13.5}
+        - {x: -15, y: -22.5}
+        - {x: 12, y: -22.5}
+        - {x: 12, y: 20.5}
     - name: heroine_47
       rect:
         serializedVersion: 2
@@ -601,6 +968,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 19.5}
+        - {x: -15, y: 9.5}
+        - {x: -15, y: -8.5}
+        - {x: -12, y: -20.5}
+        - {x: -11, y: -22.5}
+        - {x: 12, y: -22.5}
+        - {x: 12, y: 13.5}
+        - {x: 7, y: 19.5}
     - name: heroine_48
       rect:
         serializedVersion: 2
@@ -611,6 +987,12 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 20.5}
+        - {x: -13, y: 12.5}
+        - {x: -13, y: -22.5}
+        - {x: 14, y: -22.5}
+        - {x: 14, y: 20.5}
     - name: heroine_49
       rect:
         serializedVersion: 2
@@ -621,6 +1003,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 21.5}
+        - {x: -13, y: 18.5}
+        - {x: -13, y: -22.5}
+        - {x: 14, y: -22.5}
+        - {x: 14, y: 9.5}
+        - {x: 8, y: 21.5}
     - name: heroine_50
       rect:
         serializedVersion: 2
@@ -631,6 +1020,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 20.5}
+        - {x: -13, y: 17.5}
+        - {x: -13, y: -15.5}
+        - {x: -12, y: -22.5}
+        - {x: 14, y: -22.5}
+        - {x: 14, y: 12.5}
+        - {x: 9, y: 20.5}
     - name: heroine_51
       rect:
         serializedVersion: 2
@@ -639,8 +1036,17 @@ TextureImporter:
         width: 32
         height: 45
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 20.5}
+        - {x: -13, y: 13.5}
+        - {x: -13, y: -20.5}
+        - {x: -12, y: -22.5}
+        - {x: 11, y: -22.5}
+        - {x: 14, y: -21.5}
+        - {x: 14, y: 8.5}
+        - {x: 8, y: 20.5}
     - name: heroine_52
       rect:
         serializedVersion: 2
@@ -651,6 +1057,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 21.5}
+        - {x: -13, y: 14.5}
+        - {x: -13, y: -10.5}
+        - {x: -12, y: -20.5}
+        - {x: -11, y: -22.5}
+        - {x: 14, y: -22.5}
+        - {x: 14, y: 9.5}
+        - {x: 8, y: 21.5}
     - name: heroine_53
       rect:
         serializedVersion: 2
@@ -661,6 +1076,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 20.5}
+        - {x: -13, y: 18.5}
+        - {x: -13, y: -22.5}
+        - {x: 14, y: -22.5}
+        - {x: 14, y: 11.5}
+        - {x: 7, y: 20.5}
     - name: heroine_54
       rect:
         serializedVersion: 2
@@ -671,6 +1093,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 18.5}
+        - {x: -13, y: 15.5}
+        - {x: -13, y: -22.5}
+        - {x: 13, y: -22.5}
+        - {x: 13, y: 13.5}
+        - {x: 11, y: 18.5}
     - name: heroine_55
       rect:
         serializedVersion: 2
@@ -681,6 +1110,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -20.5}
+        - {x: -10, y: -22.5}
+        - {x: 12, y: -22.5}
+        - {x: 12, y: 19.5}
+        - {x: -8, y: 19.5}
+        - {x: -13, y: 12.5}
     - name: heroine_56
       rect:
         serializedVersion: 2
@@ -691,6 +1127,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 18.5}
+        - {x: -13, y: 10.5}
+        - {x: -13, y: -17.5}
+        - {x: -12, y: -22.5}
+        - {x: 13, y: -22.5}
+        - {x: 13, y: 11.5}
+        - {x: 7, y: 18.5}
     - name: heroine_57
       rect:
         serializedVersion: 2
@@ -701,6 +1145,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 18.5}
+        - {x: -11, y: 13.5}
+        - {x: -13, y: 6.5}
+        - {x: -13, y: -20.5}
+        - {x: -12, y: -22.5}
+        - {x: 13, y: -22.5}
+        - {x: 13, y: 18.5}
     - name: heroine_58
       rect:
         serializedVersion: 2
@@ -711,6 +1163,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 19.5}
+        - {x: -13, y: 16.5}
+        - {x: -13, y: -20.5}
+        - {x: -12, y: -22.5}
+        - {x: 10, y: -22.5}
+        - {x: 12, y: -21.5}
+        - {x: 12, y: 15.5}
+        - {x: 7, y: 19.5}
     - name: heroine_59
       rect:
         serializedVersion: 2
@@ -721,6 +1182,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 18.5}
+        - {x: -7, y: 18.5}
+        - {x: -13, y: 15.5}
+        - {x: -13, y: -21.5}
+        - {x: -12, y: -22.5}
+        - {x: 9, y: -22.5}
+        - {x: 12, y: -20.5}
+        - {x: 13, y: -10.5}
+        - {x: 13, y: 11.5}
     - name: heroine_60
       rect:
         serializedVersion: 2
@@ -731,6 +1202,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 18.5}
+        - {x: -14, y: -18.5}
+        - {x: -11, y: -22.5}
+        - {x: 12, y: -22.5}
+        - {x: 12, y: 16.5}
+        - {x: 10, y: 18.5}
     - name: heroine_61
       rect:
         serializedVersion: 2
@@ -741,6 +1219,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 19.5}
+        - {x: -13, y: 16.5}
+        - {x: -13, y: -22.5}
+        - {x: 12, y: -22.5}
+        - {x: 12, y: 16.5}
+        - {x: 9, y: 19.5}
     - name: heroine_62
       rect:
         serializedVersion: 2
@@ -751,6 +1236,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 18.5}
+        - {x: -14, y: 9.5}
+        - {x: -14, y: -22.5}
+        - {x: 12, y: -22.5}
+        - {x: 12, y: 14.5}
+        - {x: 9, y: 18.5}
     - name: heroine_63
       rect:
         serializedVersion: 2
@@ -761,6 +1253,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 18.5}
+        - {x: -14, y: 14.5}
+        - {x: -14, y: -22.5}
+        - {x: 11, y: -22.5}
+        - {x: 12, y: -20.5}
+        - {x: 12, y: 17.5}
+        - {x: 10, y: 18.5}
     - name: heroine_64
       rect:
         serializedVersion: 2
@@ -771,6 +1271,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 19.5}
+        - {x: -13, y: 12.5}
+        - {x: -13, y: -22.5}
+        - {x: 12, y: -22.5}
+        - {x: 12, y: 13.5}
+        - {x: 7, y: 19.5}
     - name: heroine_65
       rect:
         serializedVersion: 2
@@ -781,6 +1288,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 18.5}
+        - {x: -14, y: 14.5}
+        - {x: -14, y: -22.5}
+        - {x: 11, y: -22.5}
+        - {x: 12, y: -20.5}
+        - {x: 12, y: 13.5}
+        - {x: 8, y: 18.5}
     - name: heroine_66
       rect:
         serializedVersion: 2
@@ -791,6 +1306,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 19.5}
+        - {x: -8, y: 19.5}
+        - {x: -15, y: 9.5}
+        - {x: -15, y: -22.5}
+        - {x: 10, y: -22.5}
+        - {x: 11, y: -20.5}
+        - {x: 12, y: -12.5}
+        - {x: 12, y: 14.5}
     - name: heroine_67
       rect:
         serializedVersion: 2
@@ -801,6 +1325,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 20.5}
+        - {x: -15, y: 10.5}
+        - {x: -15, y: -3.5}
+        - {x: -13, y: -20.5}
+        - {x: -10, y: -22.5}
+        - {x: 12, y: -22.5}
+        - {x: 12, y: 15.5}
+        - {x: 9, y: 20.5}
     - name: heroine_68
       rect:
         serializedVersion: 2
@@ -811,6 +1344,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 19.5}
+        - {x: -8, y: 19.5}
+        - {x: -15, y: 13.5}
+        - {x: -15, y: 0.5}
+        - {x: -12, y: -19.5}
+        - {x: -9, y: -22.5}
+        - {x: 12, y: -22.5}
+        - {x: 12, y: 11.5}
     - name: heroine_69
       rect:
         serializedVersion: 2
@@ -821,6 +1363,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 19.5}
+        - {x: -15, y: 13.5}
+        - {x: -15, y: -22.5}
+        - {x: 11, y: -22.5}
+        - {x: 12, y: -10.5}
+        - {x: 12, y: 15.5}
+        - {x: 9, y: 19.5}
     - name: heroine_70
       rect:
         serializedVersion: 2
@@ -831,6 +1381,12 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 20.5}
+        - {x: -15, y: 10.5}
+        - {x: -15, y: -22.5}
+        - {x: 12, y: -22.5}
+        - {x: 12, y: 20.5}
     - name: heroine_71
       rect:
         serializedVersion: 2
@@ -841,6 +1397,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 19.5}
+        - {x: -15, y: 9.5}
+        - {x: -15, y: -8.5}
+        - {x: -12, y: -20.5}
+        - {x: -9, y: -22.5}
+        - {x: 9, y: -22.5}
+        - {x: 12, y: -21.5}
+        - {x: 12, y: 13.5}
+        - {x: 7, y: 19.5}
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

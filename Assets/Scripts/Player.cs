@@ -11,6 +11,7 @@ public class Player : MonoBehaviour {
     float health, maxHealth;
 
     public static Vector3 playerPos;
+    Vector3 throwingPosition;
     bool isAttacking = false;
 
     // Use this for initialization
@@ -21,6 +22,8 @@ public class Player : MonoBehaviour {
 
         navAgent = GetComponent<NavMeshAgent>();
         navAgent.updateRotation = false;
+
+        
     }
 
     // Update is called once per frame
@@ -46,15 +49,14 @@ public class Player : MonoBehaviour {
 
                 if (hit.collider.tag == "EnemyCollider")
                 {
-                    GameObject go = (GameObject)Instantiate(snowball, transform.position, Quaternion.identity);
-                    go.GetComponent<Snowball>().ActivateSnowball(hit.point, 0f);
-
+                    throwingPosition = hit.point;
+                    
                     navAgent.Stop();
                     isAttacking = true;
 
-                    
+                    //Time.timeScale = 0.5f;
 
-                    UpdateAnimationShooting(hit.point);
+                    UpdateAnimationShooting(throwingPosition);
 
                 }
             }
@@ -115,5 +117,22 @@ public class Player : MonoBehaviour {
 
         if (health < 0)
             Destroy(gameObject);
+    }
+
+    public void ThrowingFinished()
+    {
+        isAttacking = false;
+
+        if (animator.GetInteger("Direction") == 88)
+            animator.SetInteger("Direction", -8);
+        else if (animator.GetInteger("Direction") == 22)
+            animator.SetInteger("Direction", -2);
+        else if (animator.GetInteger("Direction") == 66)
+            animator.SetInteger("Direction", -6);
+        else if (animator.GetInteger("Direction") == 44)
+            animator.SetInteger("Direction", -4);
+
+        GameObject go = (GameObject)Instantiate(snowball, transform.position, Quaternion.identity);
+        go.GetComponent<Snowball>().ActivateSnowball(throwingPosition, 0f);
     }
 }
