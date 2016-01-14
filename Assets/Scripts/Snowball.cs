@@ -7,10 +7,16 @@ public class Snowball : MonoBehaviour {
     float speed = 1.5f;
     bool isActive = false;
     float damage = 20f;
-	ParticleSystem particles; 
-
+	Component snowflakes; 
+	
 	void Start() {
-		particles = GetComponent<ParticleSystem> ();
+//		Component[] children;
+//		children = GetComponentsInChildren <Component>();
+//		foreach (Component child in children) {
+//			if(child.tag == "Snowflakes") {
+//				snowflakes = child;
+//			}
+//		}
 	}
 
     void Update()
@@ -18,8 +24,20 @@ public class Snowball : MonoBehaviour {
         if (isActive)
         {
             Vector3 v = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
+
+//			Debug.Log("First");
+//			Debug.Log(v);
             v.y = transform.position.y;
             transform.position = v;
+			Debug.Log ("Position and Transform");
+			Debug.Log(Vector3.Angle(transform.position, target));
+
+			// Rotation is updated every time, in case the snowball throw changes to an arc
+//			snowflakes.transform.rotation.eulerAngles = v;
+//			Vector3 rot = snowflakes.transform.rotation;
+//			snowflakes.transform.rotation = Quaternion.Euler();
+
+
         }
     }
 
