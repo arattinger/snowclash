@@ -70,7 +70,6 @@ public class Player : MonoBehaviour {
 
     void UpdateAnimation()
     {
-
         if (navAgent.desiredVelocity == Vector3.zero)
         {
             if(animator.GetInteger("Direction") == 8)
