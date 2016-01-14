@@ -7,6 +7,11 @@ public class Snowball : MonoBehaviour {
     float speed = 1.5f;
     bool isActive = false;
     float damage = 20f;
+	ParticleSystem particles; 
+
+	void Start() {
+		particles = GetComponent<ParticleSystem> ();
+	}
 
     void Update()
     {
