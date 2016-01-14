@@ -47,7 +47,7 @@ public class Player : MonoBehaviour {
                     isAttacking = false;
                 }
 
-                if (hit.collider.tag == "EnemyCollider")
+                if ((hit.collider.tag == "EnemyCollider") && !isAttacking)
                 {
                     throwingPosition = hit.point;
                     
@@ -139,7 +139,13 @@ public class Player : MonoBehaviour {
             animator.SetInteger("Direction", -4);
 
         Vector3 pos = new Vector3(transform.position.x, transform.position.y, transform.position.z + 0.1f);
-        GameObject go = (GameObject)Instantiate(snowball, pos, Quaternion.identity);
+        GameObject go = (GameObject)Instantiate(snowball, pos, snowball.transform.rotation);
         go.GetComponent<Snowball>().ActivateSnowball(throwingPosition, 0f);
+
+        /*if (animator.GetInteger("Direction") == -2) {
+            Vector3 childPos = go.transform.GetChild(0).transform.position;
+            childPos.y = -0.5f;
+            go.transform.GetChild(0).transform.position = childPos;
+        }*/
     }
 }
