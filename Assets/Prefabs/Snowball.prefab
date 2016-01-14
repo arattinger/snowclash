@@ -24,8 +24,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 458274}
-  - 199: {fileID: 19914134}
-  - 198: {fileID: 19870282}
+  - 198: {fileID: 19877912}
+  - 199: {fileID: 19911390}
   m_Layer: 0
   m_Name: Snowflakes
   m_TagString: Snowflakes
@@ -148,6 +148,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65f69e49961257d4ebacd736892fdae5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pitch: .5
+  snowballHit: {fileID: 8300000, guid: c3843f1b61cb99345bb9ac812e0844b2, type: 3}
 --- !u!135 &13567216
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -160,7 +162,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: .5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!198 &19870282
+--- !u!198 &19877912
 ParticleSystem:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -173,11 +175,11 @@ ParticleSystem:
   looping: 1
   prewarm: 0
   playOnAwake: 1
-  moveWithTransform: 0
+  moveWithTransform: 1
   InitialModule:
     enabled: 1
     startLifetime:
-      scalar: .600000024
+      scalar: .25999999
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -210,7 +212,7 @@ ParticleSystem:
         m_PostInfinity: 2
       minMaxState: 0
     startSpeed:
-      scalar: .300000012
+      scalar: .629999995
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -337,7 +339,7 @@ ParticleSystem:
         rgba: 4294967295
       minMaxState: 0
     startSize:
-      scalar: .159999996
+      scalar: .200000003
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -402,15 +404,15 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
-    gravityModifier: 6.88000011
-    inheritVelocity: 11.1599998
-    maxNumParticles: 12
+    gravityModifier: 0
+    inheritVelocity: 0
+    maxNumParticles: 1000
   ShapeModule:
     serializedVersion: 2
     enabled: 1
     type: 4
     radius: 1
-    angle: 20
+    angle: 25
     length: 5
     boxX: 1
     boxY: 1
@@ -423,7 +425,7 @@ ParticleSystem:
     enabled: 1
     m_Type: 0
     rate:
-      scalar: 7.01999998
+      scalar: 10
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -502,7 +504,7 @@ ParticleSystem:
   RotationModule:
     enabled: 0
     curve:
-      scalar: 1.55508828
+      scalar: .785398185
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -540,7 +542,7 @@ ParticleSystem:
       maxGradient:
         key0:
           serializedVersion: 2
-          rgba: 4293707645
+          rgba: 4294235011
         key1:
           serializedVersion: 2
           rgba: 4294967295
@@ -562,8 +564,8 @@ ParticleSystem:
         key7:
           serializedVersion: 2
           rgba: 0
-        ctime0: 2891
-        ctime1: 23708
+        ctime0: 5012
+        ctime1: 65535
         ctime2: 0
         ctime3: 0
         ctime4: 0
@@ -1053,9 +1055,9 @@ ParticleSystem:
       minMaxState: 1
     range: {x: 0, y: 1}
   RotationBySpeedModule:
-    enabled: 1
+    enabled: 0
     curve:
-      scalar: 2.51152873
+      scalar: .785398185
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -1213,7 +1215,7 @@ ParticleSystem:
     subEmitterCollision1: {fileID: 0}
     subEmitterDeath: {fileID: 0}
     subEmitterDeath1: {fileID: 0}
---- !u!199 &19914134
+--- !u!199 &19911390
 ParticleSystemRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1297,6 +1299,18 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: playOnAwake
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: snowballHit
+      value: 
+      objectReference: {fileID: 8300000, guid: c3843f1b61cb99345bb9ac812e0844b2, type: 3}
+    - target: {fileID: 0}
+      propertyPath: snowballMiss
+      value: 
+      objectReference: {fileID: 8300000, guid: c14fa9440351121459a409415853e1d5, type: 3}
+    - target: {fileID: 0}
+      propertyPath: pitch
+      value: .5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

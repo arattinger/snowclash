@@ -7,7 +7,8 @@ public class Snowball : MonoBehaviour {
     float speed = 1.5f;
     bool isActive = false;
     float damage = 20f;
-	Component snowflakes; 
+	Component snowflakes;
+	public AudioClip snowballHit;	
 	
 	void Start() {
 //		Component[] children;
@@ -43,9 +44,11 @@ public class Snowball : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
+
         //Debug.Log("other:" + other.tag);
         if (other.tag == "Enemy")
-        {
+        {	
+			SoundManager.instance.PlaySingle (snowballHit);
             other.GetComponent<Zombie>().DamageAccept(damage);
         }
 
