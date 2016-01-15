@@ -168,6 +168,8 @@ GameObject:
   - 4: {fileID: 576143476}
   - 114: {fileID: 576143477}
   - 114: {fileID: 576143478}
+  - 114: {fileID: 576143479}
+  - 114: {fileID: 576143480}
   m_Layer: 0
   m_Name: _Manager
   m_TagString: Untagged
@@ -209,6 +211,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c48eff5593a5d4202ac8543c2a007183, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &576143479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 576143475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ac9cc19389104707ad21c5a93e434b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: db82213ff8fe1442799863f0476b8382, type: 3}
+--- !u!114 &576143480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 576143475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a308c2b12e2e405ebe2ecec08973f88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toggle: {fileID: 1937919356}
 --- !u!1 &605867110
 GameObject:
   m_ObjectHideFlags: 0
@@ -1076,6 +1102,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+--- !u!1001 &1671329837
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 431924, guid: f5bb64dd8932a4d47b8d3ea0ef890502, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.28513676
+      objectReference: {fileID: 0}
+    - target: {fileID: 431924, guid: f5bb64dd8932a4d47b8d3ea0ef890502, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.9772569
+      objectReference: {fileID: 0}
+    - target: {fileID: 431924, guid: f5bb64dd8932a4d47b8d3ea0ef890502, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.78832036
+      objectReference: {fileID: 0}
+    - target: {fileID: 431924, guid: f5bb64dd8932a4d47b8d3ea0ef890502, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 431924, guid: f5bb64dd8932a4d47b8d3ea0ef890502, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 431924, guid: f5bb64dd8932a4d47b8d3ea0ef890502, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 431924, guid: f5bb64dd8932a4d47b8d3ea0ef890502, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 431924, guid: f5bb64dd8932a4d47b8d3ea0ef890502, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8207202, guid: f5bb64dd8932a4d47b8d3ea0ef890502, type: 2}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: f5bb64dd8932a4d47b8d3ea0ef890502, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1831074554
 GameObject:
   m_ObjectHideFlags: 0
@@ -1293,7 +1365,18 @@ MonoBehaviour:
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 576143480}
+        m_MethodName: MusicToggle
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_IsOn: 1
