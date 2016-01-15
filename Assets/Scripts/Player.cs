@@ -147,4 +147,15 @@ public class Player : MonoBehaviour {
             go.transform.GetChild(0).transform.position = childPos;
         }*/
     }
+
+    public void PowerUpMovement()
+    {
+        navAgent.speed = 1f;
+    }
+
+    public void PowerUpHealths()
+    {
+        health = maxHealth;
+        healthBar.fillAmount = health / maxHealth;
+    }
 }
