@@ -59,7 +59,10 @@ public class Zombie : MonoBehaviour {
         healthBar.fillAmount = health / maxHealth;
 
         if (health < 0)
+        {
+            EnemyBar.EnemiesKnocked();
             Destroy(gameObject);
+        }
     }
 
 

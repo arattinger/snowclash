@@ -5,7 +5,8 @@ public enum Collectables
 {
     FastMovement,
     Healts,
-    StrongerSnowball
+    StrongerSnowball,
+    Treasure
 }
 
 public class Collectable : MonoBehaviour {
@@ -30,6 +31,10 @@ public class Collectable : MonoBehaviour {
             else if (PowerUp == Collectables.Healts)
             {
                 other.GetComponent<Player>().PowerUpHealths();
+            }
+            else if (PowerUp == Collectables.Treasure)
+            {
+                TreasureBar.TreasureCollected();
             }
                 Destroy(gameObject);
         }
