@@ -27,12 +27,11 @@ public class Collectable : MonoBehaviour {
             {
                 other.GetComponent<Player>().PowerUpMovement();
             }
-            else if (PowerUp == Collectables.FastMovement)
+            else if (PowerUp == Collectables.Healts)
             {
                 other.GetComponent<Player>().PowerUpHealths();
             }
                 Destroy(gameObject);
         }
-
     }
 }
