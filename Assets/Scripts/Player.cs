@@ -134,7 +134,7 @@ public class Player : MonoBehaviour {
             animator.SetInteger("Direction", -2);
         else if (animator.GetInteger("Direction") == 66)
             animator.SetInteger("Direction", -6);
-        else if (animator.GetInteger("Direction") == 44)
+        else /*if (animator.GetInteger("Direction") == 44)*/
             animator.SetInteger("Direction", -4);
 
         Vector3 pos = new Vector3(transform.position.x, transform.position.y, transform.position.z + 0.1f);
