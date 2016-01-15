@@ -49,7 +49,7 @@ public class Player : MonoBehaviour {
 
                 if ((hit.collider.tag == "EnemyCollider") && !isAttacking)
                 {
-                    throwingPosition = hit.point;
+                    throwingPosition = hit.collider.transform.position;
                     
                     navAgent.Stop();
                     isAttacking = true;
