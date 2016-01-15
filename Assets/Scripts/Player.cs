@@ -121,7 +121,10 @@ public class Player : MonoBehaviour {
         healthBar.fillAmount = health / maxHealth;
 
         if (health < 0)
+        {
             Destroy(gameObject);
+            Application.LoadLevel("GameMenu");
+        }
     }
 
     public void ThrowingFinished()
