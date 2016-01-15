@@ -58,7 +58,7 @@ public class Snowball : MonoBehaviour {
 
     public void ActivateSnowball(Vector3 _target, float distance)
     {
-        Destroy(gameObject, 1.8f);
+        Destroy(gameObject, 1.5f);
         target = _target;
         isActive = true;
     }
