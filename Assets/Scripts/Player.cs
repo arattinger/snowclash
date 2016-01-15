@@ -39,7 +39,7 @@ public class Player : MonoBehaviour {
             if (Physics.Raycast(ray, out hit))
             {
                 //Debug.Log("tag:" + hit.collider.tag);
-                if (hit.collider.tag == "Ground" || hit.collider.tag == "Obstacle")
+                if (hit.collider.tag == "Ground" || hit.collider.tag == "Obstacle" || hit.collider.tag == "Collectable")
                 {
                     navAgent.SetDestination(hit.point);
 
@@ -151,11 +151,21 @@ public class Player : MonoBehaviour {
     public void PowerUpMovement()
     {
         navAgent.speed = 1f;
+        StartCoroutine(YieldMovement());
+    }
+
+    IEnumerator YieldMovement ()
+    {
+        yield return new WaitForSeconds(4f);
+        Debug.Log("Posle yield");
+        navAgent.speed = 0.5f;
     }
 
     public void PowerUpHealths()
     {
+        Debug.Log("Health before: "+health);
         health = maxHealth;
         healthBar.fillAmount = health / maxHealth;
+        Debug.Log("Health after: " + health);
     }
 }

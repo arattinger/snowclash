@@ -5,7 +5,6 @@ public class SinglePlayerScript : MonoBehaviour {
 
 	public void SinglePlayer(int scene)
 	{
-		SoundManager.instance.efxSource.Stop ();
-		Application.LoadLevel (scene);
+        Application.LoadLevel(scene);
 	}
 }

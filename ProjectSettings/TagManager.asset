@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - EnemyCollider
   - Snowflakes
+  - Collectable
   layers:
   - Default
   - TransparentFX

@@ -222,7 +222,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   toggle: {fileID: 1937919356}
-  clip: {fileID: 8300000, guid: db82213ff8fe1442799863f0476b8382, type: 3}
 --- !u!1 &605867110
 GameObject:
   m_ObjectHideFlags: 0
@@ -584,7 +583,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: 45fdb27344cf046809197fda00b0ad70, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c17f2107eadea44669e57be5298e3b91, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -658,7 +657,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1215039290}
   m_OnClick:
     m_PersistentCalls:
@@ -1131,8 +1130,28 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 8207202, guid: f5bb64dd8932a4d47b8d3ea0ef890502, type: 2}
       propertyPath: m_PlayOnAwake
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8269656, guid: f5bb64dd8932a4d47b8d3ea0ef890502, type: 2}
+      propertyPath: panLevelCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8269656, guid: f5bb64dd8932a4d47b8d3ea0ef890502, type: 2}
+      propertyPath: reverbZoneMixCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8207202, guid: f5bb64dd8932a4d47b8d3ea0ef890502, type: 2}
+      propertyPath: panLevelCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8207202, guid: f5bb64dd8932a4d47b8d3ea0ef890502, type: 2}
+      propertyPath: reverbZoneMixCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8207202, guid: f5bb64dd8932a4d47b8d3ea0ef890502, type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3b331a2cb8344884fa083c8c38b25ef5, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f5bb64dd8932a4d47b8d3ea0ef890502, type: 2}
   m_IsPrefabParent: 0
@@ -1292,7 +1311,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1937919355
 RectTransform:
   m_ObjectHideFlags: 0
