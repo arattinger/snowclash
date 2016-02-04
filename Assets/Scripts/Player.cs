@@ -14,6 +14,9 @@ public class Player : MonoBehaviour {
     Vector3 throwingPosition;
     bool isAttacking = false;
 
+    private static bool kinectGrabbed = false;
+    private static Vector3 kinectPos;
+
     // Use this for initialization
     void Start()
     {
@@ -31,10 +34,20 @@ public class Player : MonoBehaviour {
     {
         playerPos = transform.position;
 
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1") || kinectGrabbed)
         {
             RaycastHit hit;
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            Ray ray;
+            
+            if(kinectGrabbed)
+            {
+                ray = Camera.main.ScreenPointToRay(Camera.main.WorldToScreenPoint(kinectPos));
+                kinectGrabbed = false;
+            }
+            else
+            {
+                ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            }
 
             if (Physics.Raycast(ray, out hit))
             {
@@ -170,5 +183,11 @@ public class Player : MonoBehaviour {
         health = maxHealth;
         healthBar.fillAmount = health / maxHealth;
         Debug.Log("Health after: " + health);
+    }
+
+    public static void KinectInput(Vector3 pos)
+    {
+        kinectGrabbed = true;
+        kinectPos = pos;
     }
 }
