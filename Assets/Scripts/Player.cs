@@ -155,7 +155,7 @@ public class Player : MonoBehaviour {
 
         Vector3 pos = new Vector3(transform.position.x, transform.position.y, transform.position.z + 0.1f);
         GameObject go = (GameObject)Instantiate(snowball, pos, snowball.transform.rotation);
-        go.GetComponent<Snowball>().ActivateSnowball(throwingPosition, 0f);
+        go.GetComponent<Snowball>().ActivateSnowball(throwingPosition, 0f, Snowball.hitTarget.Enemy);
 
         /*if (animator.GetInteger("Direction") == -2) {
             Vector3 childPos = go.transform.GetChild(0).transform.position;

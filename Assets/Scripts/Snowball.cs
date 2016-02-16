@@ -9,7 +9,12 @@ public class Snowball : MonoBehaviour {
     float damage = 20f;
 	Component snowflakes;
 	public AudioClip snowballHit;	
-	
+    public enum hitTarget { Player, Enemy };
+
+    // Determines if the snowball is thrown at the player or the enemy
+    // This is used to prevent: Friendly Fire, and Enemies killing themself
+    hitTarget aimedAt;
+
 	void Start() {
 //		Component[] children;
 //		children = GetComponentsInChildren <Component>();
@@ -46,20 +51,21 @@ public class Snowball : MonoBehaviour {
     {
 
         //Debug.Log("other:" + other.tag);
-        if (other.tag == "Enemy")
+        if (other.tag == "Enemy" && aimedAt == hitTarget.Enemy)
         {	
 			SoundManager.instance.PlaySingle (snowballHit);
             other.GetComponent<Zombie>().DamageAccept(damage);
         }
 
-        if (other.tag == "Enemy" || other.tag == "Obstacle")
+        if ((other.tag == "Enemy" && aimedAt == hitTarget.Enemy) || other.tag == "Obstacle")
             Destroy(gameObject);
     }
 
-    public void ActivateSnowball(Vector3 _target, float distance)
+    public void ActivateSnowball(Vector3 _target, float distance, hitTarget aimedAt)
     {
         Destroy(gameObject, 1.5f);
         target = _target;
         isActive = true;
+        this.aimedAt = aimedAt;
     }
 }

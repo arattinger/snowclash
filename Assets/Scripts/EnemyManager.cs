@@ -4,6 +4,7 @@ using System.Collections;
 public class EnemyManager : MonoBehaviour
 {
     public GameObject enemy;
+    int count = 0;
 
     // Use this for initialization
     void Start()
@@ -15,6 +16,8 @@ public class EnemyManager : MonoBehaviour
     {
         GameObject go = (GameObject)Instantiate(enemy, transform.position, Quaternion.identity);
         yield return new WaitForSeconds(5f);
-        StartCoroutine(AddEnemy());
+        count++;
+        if(count < 1)
+            StartCoroutine(AddEnemy());
     }
 }
