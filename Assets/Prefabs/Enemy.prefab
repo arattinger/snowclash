@@ -275,6 +275,8 @@ MonoBehaviour:
   animator: {fileID: 9586350}
   healthBar: {fileID: 11422566}
   throwRange: 0.85
+  snowball: {fileID: 199652, guid: bc8ef097f92431d4f863a2bb677f559b, type: 2}
+  shotCooldown: 1
 --- !u!114 &11434044
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -491,6 +493,10 @@ Prefab:
       propertyPath: m_Speed
       value: 0.12
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: snowball
+      value: 
+      objectReference: {fileID: 199652, guid: bc8ef097f92431d4f863a2bb677f559b, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 120566}

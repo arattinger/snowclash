@@ -11,7 +11,7 @@ public class Zombie : MonoBehaviour {
 
     // shotCooldown and timer are used to limit the intervals
     // the enemy can shoot in. timer has to be 0!
-    public float shotCooldown = 1.0f;
+    public float shotCooldown = 2f;
     float timer = 0;
 
     float health, maxHealth;

@@ -57,7 +57,15 @@ public class Snowball : MonoBehaviour {
             other.GetComponent<Zombie>().DamageAccept(damage);
         }
 
-        if ((other.tag == "Enemy" && aimedAt == hitTarget.Enemy) || other.tag == "Obstacle")
+        if (other.tag == "Player" && aimedAt == hitTarget.Player)
+        {
+            SoundManager.instance.PlaySingle(snowballHit);
+            other.GetComponent<Player>().DamageAccept(damage);
+        }
+
+        if ((other.tag == "Enemy" && aimedAt == hitTarget.Enemy) ||
+            (other.tag == "Player" && aimedAt == hitTarget.Player) ||
+            other.tag == "Obstacle")
             Destroy(gameObject);
     }
 
