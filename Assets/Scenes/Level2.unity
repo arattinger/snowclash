@@ -629,6 +629,57 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 431142, guid: c311d5f8ce01a4d3dbd62ce5f85648dc, type: 2}
   m_PrefabInternal: {fileID: 102255180}
+--- !u!1001 &117160306
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 468978, guid: d703b77094b9ecc4fb74f9d10ac28b36, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.38751
+      objectReference: {fileID: 0}
+    - target: {fileID: 468978, guid: d703b77094b9ecc4fb74f9d10ac28b36, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468978, guid: d703b77094b9ecc4fb74f9d10ac28b36, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1.343
+      objectReference: {fileID: 0}
+    - target: {fileID: 468978, guid: d703b77094b9ecc4fb74f9d10ac28b36, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468978, guid: d703b77094b9ecc4fb74f9d10ac28b36, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468978, guid: d703b77094b9ecc4fb74f9d10ac28b36, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 468978, guid: d703b77094b9ecc4fb74f9d10ac28b36, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 468978, guid: d703b77094b9ecc4fb74f9d10ac28b36, type: 2}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 11467470, guid: d703b77094b9ecc4fb74f9d10ac28b36, type: 2}
+      propertyPath: spriteSheetName
+      value: heroine_turqouise.png
+      objectReference: {fileID: 0}
+    - target: {fileID: 11472756, guid: d703b77094b9ecc4fb74f9d10ac28b36, type: 2}
+      propertyPath: spriteSheetName
+      value: heroine_t2
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 11467470, guid: d703b77094b9ecc4fb74f9d10ac28b36, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: d703b77094b9ecc4fb74f9d10ac28b36, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &125138358
 GameObject:
   m_ObjectHideFlags: 0
@@ -7010,6 +7061,34 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1492606469}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1514576828 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 104074, guid: d703b77094b9ecc4fb74f9d10ac28b36, type: 2}
+  m_PrefabInternal: {fileID: 117160306}
+--- !u!114 &1514576830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1514576828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21d20dd79cd140a4595c41f4b6aeecef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteSheetName: heroine_t2_hammer_1
+--- !u!114 &1514576834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1514576828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21d20dd79cd140a4595c41f4b6aeecef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteSheetName: heroine_t2_hammer_2
 --- !u!1001 &1517834839
 Prefab:
   m_ObjectHideFlags: 0

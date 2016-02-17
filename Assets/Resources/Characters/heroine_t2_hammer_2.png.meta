@@ -1,0 +1,1552 @@
+fileFormatVersion: 2
+guid: e949da401f15cf445b4e67ccd0cdb226
+timeCreated: 1455731456
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: heroine_t2_hammer_2_0
+    21300002: heroine_t2_hammer_2_1
+    21300004: heroine_t2_hammer_2_2
+    21300006: heroine_t2_hammer_2_3
+    21300008: heroine_t2_hammer_2_4
+    21300010: heroine_t2_hammer_2_5
+    21300012: heroine_t2_hammer_2_6
+    21300014: heroine_t2_hammer_2_7
+    21300016: heroine_t2_hammer_2_8
+    21300018: '!hero_hammer_2_9'
+    21300020: heroine_t2_hammer_2_10
+    21300022: heroine_t2_hammer_2_11
+    21300024: heroine_t2_hammer_2_12
+    21300026: heroine_t2_hammer_2_13
+    21300028: heroine_t2_hammer_2_14
+    21300030: heroine_t2_hammer_2_15
+    21300032: heroine_t2_hammer_2_16
+    21300034: heroine_t2_hammer_2_17
+    21300036: heroine_t2_hammer_2_18
+    21300038: heroine_t2_hammer_2_19
+    21300040: heroine_t2_hammer_2_20
+    21300042: '!hero_hammer_2_21'
+    21300044: heroine_t2_hammer_2_22
+    21300046: heroine_t2_hammer_2_23
+    21300048: heroine_t2_hammer_2_24
+    21300050: heroine_t2_hammer_2_25
+    21300052: heroine_t2_hammer_2_26
+    21300054: heroine_t2_hammer_2_27
+    21300056: heroine_t2_hammer_2_28
+    21300058: heroine_t2_hammer_2_29
+    21300060: heroine_t2_hammer_2_30
+    21300062: heroine_t2_hammer_2_31
+    21300064: heroine_t2_hammer_2_32
+    21300066: '!hero_hammer_2_33'
+    21300068: heroine_t2_hammer_2_34
+    21300070: heroine_t2_hammer_2_35
+    21300072: heroine_t2_hammer_2_36
+    21300074: heroine_t2_hammer_2_37
+    21300076: heroine_t2_hammer_2_38
+    21300078: heroine_t2_hammer_2_39
+    21300080: heroine_t2_hammer_2_40
+    21300082: heroine_t2_hammer_2_41
+    21300084: heroine_t2_hammer_2_42
+    21300086: heroine_t2_hammer_2_43
+    21300088: heroine_t2_hammer_2_44
+    21300090: heroine_t2_hammer_2_45
+    21300092: '!hero_hammer_2_46'
+    21300094: heroine_t2_hammer_2_47
+    21300096: heroine_t2_hammer_2_48
+    21300098: heroine_t2_hammer_2_49
+    21300100: heroine_t2_hammer_2_50
+    21300102: heroine_t2_hammer_2_51
+    21300104: heroine_t2_hammer_2_52
+    21300106: heroine_t2_hammer_2_53
+    21300108: heroine_t2_hammer_2_54
+    21300110: heroine_t2_hammer_2_55
+    21300112: heroine_t2_hammer_2_56
+    21300114: heroine_t2_hammer_2_57
+    21300116: '!hero_hammer_2_58'
+    21300118: heroine_t2_hammer_2_59
+    21300120: heroine_t2_hammer_2_60
+    21300122: heroine_t2_hammer_2_61
+    21300124: heroine_t2_hammer_2_62
+    21300126: heroine_t2_hammer_2_63
+    21300128: heroine_t2_hammer_2_64
+    21300130: heroine_t2_hammer_2_65
+    21300132: heroine_t2_hammer_2_66
+    21300134: heroine_t2_hammer_2_67
+    21300136: heroine_t2_hammer_2_68
+    21300138: heroine_t2_hammer_2_69
+    21300140: '!hero_hammer_2_70'
+    21300142: heroine_t2_hammer_2_71
+    21300144: heroine_t2_hammer_2_72
+    21300146: heroine_t2_hammer_2_73
+    21300148: heroine_t2_hammer_2_74
+    21300150: heroine_t2_hammer_2_75
+    21300152: heroine_t2_hammer_2_76
+    21300154: heroine_t2_hammer_2_77
+    21300156: heroine_t2_hammer_2_78
+    21300158: heroine_t2_hammer_2_79
+    21300160: heroine_t2_hammer_2_80
+    21300162: heroine_t2_hammer_2_81
+    21300164: '!hero_hammer_2_82'
+    21300166: heroine_t2_hammer_2_83
+    21300168: heroine_t2_hammer_2_84
+    21300170: heroine_t2_hammer_2_85
+    21300172: heroine_t2_hammer_2_86
+    21300174: heroine_t2_hammer_2_87
+    21300176: heroine_t2_hammer_2_88
+    21300178: heroine_t2_hammer_2_89
+    21300180: heroine_t2_hammer_2_90
+    21300182: heroine_t2_hammer_2_91
+    21300184: heroine_t2_hammer_2_92
+    21300186: heroine_t2_hammer_2_93
+    21300188: heroine_t2_hammer_2_94
+    21300190: '!hero_hammer_2_95'
+    21300192: heroine_t2_hammer_2_96
+    21300194: heroine_t2_hammer_2_97
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: heroine_t2_hammer_2_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 424
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 424
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 424
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_3
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 424
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_4
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 424
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_5
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 424
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_6
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 424
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_7
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 424
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_8
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 424
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: '!hero_hammer_2_9'
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 424
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_10
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 424
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_11
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 424
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_12
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 364
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_13
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 364
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_14
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 364
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_15
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 364
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_16
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 364
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_17
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 364
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_18
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 364
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_19
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 364
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_20
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 364
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: '!hero_hammer_2_21'
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 364
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_22
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 364
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_23
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 364
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 304
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 19.5}
+        - {x: -18, y: 9.5}
+        - {x: -18, y: -19.5}
+        - {x: 18, y: -19.5}
+        - {x: 18, y: 16.5}
+        - {x: 15, y: 19.5}
+    - name: heroine_t2_hammer_2_25
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 304
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 19.5}
+        - {x: -18, y: 9.5}
+        - {x: -18, y: -19.5}
+        - {x: 18, y: -19.5}
+        - {x: 18, y: 16.5}
+        - {x: 15, y: 19.5}
+    - name: heroine_t2_hammer_2_26
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 304
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 19.5}
+        - {x: -18, y: 9.5}
+        - {x: -18, y: -19.5}
+        - {x: 18, y: -19.5}
+        - {x: 18, y: 16.5}
+        - {x: 15, y: 19.5}
+    - name: heroine_t2_hammer_2_27
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 304
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 19.5}
+        - {x: -18, y: 9.5}
+        - {x: -18, y: -19.5}
+        - {x: 18, y: -19.5}
+        - {x: 18, y: 16.5}
+        - {x: 15, y: 19.5}
+    - name: heroine_t2_hammer_2_28
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 304
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 19.5}
+        - {x: -18, y: 9.5}
+        - {x: -18, y: -19.5}
+        - {x: 18, y: -19.5}
+        - {x: 18, y: 16.5}
+        - {x: 15, y: 19.5}
+    - name: heroine_t2_hammer_2_29
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 304
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 19.5}
+        - {x: -18, y: 9.5}
+        - {x: -18, y: -19.5}
+        - {x: 18, y: -19.5}
+        - {x: 18, y: 16.5}
+        - {x: 15, y: 19.5}
+    - name: heroine_t2_hammer_2_30
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 304
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 19.5}
+        - {x: -18, y: 9.5}
+        - {x: -18, y: -19.5}
+        - {x: 18, y: -19.5}
+        - {x: 18, y: 16.5}
+        - {x: 15, y: 19.5}
+    - name: heroine_t2_hammer_2_31
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 304
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 19.5}
+        - {x: -18, y: 9.5}
+        - {x: -18, y: -19.5}
+        - {x: 18, y: -19.5}
+        - {x: 18, y: 16.5}
+        - {x: 15, y: 19.5}
+    - name: heroine_t2_hammer_2_32
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 304
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 19.5}
+        - {x: -18, y: 9.5}
+        - {x: -18, y: -19.5}
+        - {x: 18, y: -19.5}
+        - {x: 18, y: 16.5}
+        - {x: 15, y: 19.5}
+    - name: '!hero_hammer_2_33'
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 304
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_34
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 304
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 19.5}
+        - {x: -18, y: 9.5}
+        - {x: -18, y: -19.5}
+        - {x: 18, y: -19.5}
+        - {x: 18, y: 16.5}
+        - {x: 15, y: 19.5}
+    - name: heroine_t2_hammer_2_35
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 304
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 19.5}
+        - {x: -18, y: 9.5}
+        - {x: -18, y: -19.5}
+        - {x: 18, y: -19.5}
+        - {x: 18, y: 16.5}
+        - {x: 15, y: 19.5}
+    - name: heroine_t2_hammer_2_36
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 244
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 19.5}
+        - {x: -7, y: 18.5}
+        - {x: -18, y: -2.5}
+        - {x: -18, y: -18.5}
+        - {x: -17, y: -19.5}
+        - {x: 18, y: -19.5}
+        - {x: 18, y: 19.5}
+    - name: heroine_t2_hammer_2_37
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 244
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 19.5}
+        - {x: -7, y: 18.5}
+        - {x: -18, y: -2.5}
+        - {x: -18, y: -18.5}
+        - {x: -17, y: -19.5}
+        - {x: 18, y: -19.5}
+        - {x: 18, y: 19.5}
+    - name: heroine_t2_hammer_2_38
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 244
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 19.5}
+        - {x: -7, y: 18.5}
+        - {x: -18, y: -2.5}
+        - {x: -18, y: -18.5}
+        - {x: -17, y: -19.5}
+        - {x: 18, y: -19.5}
+        - {x: 18, y: 19.5}
+    - name: heroine_t2_hammer_2_39
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 244
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 19.5}
+        - {x: -7, y: 18.5}
+        - {x: -18, y: -2.5}
+        - {x: -18, y: -18.5}
+        - {x: -17, y: -19.5}
+        - {x: 18, y: -19.5}
+        - {x: 18, y: 19.5}
+    - name: heroine_t2_hammer_2_40
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 244
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 19.5}
+        - {x: -7, y: 18.5}
+        - {x: -18, y: -2.5}
+        - {x: -18, y: -18.5}
+        - {x: -17, y: -19.5}
+        - {x: 18, y: -19.5}
+        - {x: 18, y: 19.5}
+    - name: heroine_t2_hammer_2_41
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 244
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 19.5}
+        - {x: -7, y: 18.5}
+        - {x: -18, y: -2.5}
+        - {x: -18, y: -18.5}
+        - {x: -17, y: -19.5}
+        - {x: 18, y: -19.5}
+        - {x: 18, y: 19.5}
+    - name: heroine_t2_hammer_2_42
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 244
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 19.5}
+        - {x: -7, y: 18.5}
+        - {x: -18, y: -2.5}
+        - {x: -18, y: -18.5}
+        - {x: -17, y: -19.5}
+        - {x: 18, y: -19.5}
+        - {x: 18, y: 19.5}
+    - name: heroine_t2_hammer_2_43
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 244
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 19.5}
+        - {x: -7, y: 18.5}
+        - {x: -18, y: -2.5}
+        - {x: -18, y: -18.5}
+        - {x: -17, y: -19.5}
+        - {x: 18, y: -19.5}
+        - {x: 18, y: 19.5}
+    - name: heroine_t2_hammer_2_44
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 244
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 19.5}
+        - {x: -7, y: 18.5}
+        - {x: -18, y: -2.5}
+        - {x: -18, y: -18.5}
+        - {x: -17, y: -19.5}
+        - {x: 18, y: -19.5}
+        - {x: 18, y: 19.5}
+    - name: heroine_t2_hammer_2_45
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 278
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: '!hero_hammer_2_46'
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 244
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_47
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 244
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 19.5}
+        - {x: -7, y: 18.5}
+        - {x: -18, y: -2.5}
+        - {x: -18, y: -18.5}
+        - {x: -17, y: -19.5}
+        - {x: 18, y: -19.5}
+        - {x: 18, y: 19.5}
+    - name: heroine_t2_hammer_2_48
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 244
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 19.5}
+        - {x: -7, y: 18.5}
+        - {x: -18, y: -2.5}
+        - {x: -18, y: -18.5}
+        - {x: -17, y: -19.5}
+        - {x: 18, y: -19.5}
+        - {x: 18, y: 19.5}
+    - name: heroine_t2_hammer_2_49
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 184
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_50
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 184
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_51
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 184
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_52
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 184
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_53
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 184
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_54
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 184
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_55
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 184
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_56
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 184
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_57
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 184
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: '!hero_hammer_2_58'
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 184
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_59
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 184
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_60
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 184
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_61
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 124
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_62
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 124
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_63
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 124
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_64
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 124
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_65
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 124
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_66
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 124
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_67
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 124
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_68
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 124
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_69
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 124
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: '!hero_hammer_2_70'
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 124
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_71
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 124
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_72
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 124
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_73
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 64
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 2.5}
+        - {x: 7.5, y: 10.5}
+        - {x: 7.5, y: 11.5}
+        - {x: 4.5, y: 19.5}
+        - {x: -17.5, y: 19.5}
+        - {x: -17.5, y: -19.5}
+        - {x: 17.5, y: -19.5}
+        - {x: 17.5, y: 4.5}
+        - {x: 12.5, y: 8.5}
+    - name: heroine_t2_hammer_2_74
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 64
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 2.5}
+        - {x: 7.5, y: 10.5}
+        - {x: 7.5, y: 11.5}
+        - {x: 4.5, y: 19.5}
+        - {x: -17.5, y: 19.5}
+        - {x: -17.5, y: -19.5}
+        - {x: 17.5, y: -19.5}
+        - {x: 17.5, y: 4.5}
+        - {x: 12.5, y: 8.5}
+    - name: heroine_t2_hammer_2_75
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 64
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 2.5}
+        - {x: 7.5, y: 10.5}
+        - {x: 7.5, y: 11.5}
+        - {x: 4.5, y: 19.5}
+        - {x: -17.5, y: 19.5}
+        - {x: -17.5, y: -19.5}
+        - {x: 17.5, y: -19.5}
+        - {x: 17.5, y: 4.5}
+        - {x: 12.5, y: 8.5}
+    - name: heroine_t2_hammer_2_76
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 64
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 2.5}
+        - {x: 7.5, y: 10.5}
+        - {x: 7.5, y: 11.5}
+        - {x: 4.5, y: 19.5}
+        - {x: -17.5, y: 19.5}
+        - {x: -17.5, y: -19.5}
+        - {x: 17.5, y: -19.5}
+        - {x: 17.5, y: 4.5}
+        - {x: 12.5, y: 8.5}
+    - name: heroine_t2_hammer_2_77
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 64
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 2.5}
+        - {x: 7.5, y: 10.5}
+        - {x: 7.5, y: 11.5}
+        - {x: 4.5, y: 19.5}
+        - {x: -17.5, y: 19.5}
+        - {x: -17.5, y: -19.5}
+        - {x: 17.5, y: -19.5}
+        - {x: 17.5, y: 4.5}
+        - {x: 12.5, y: 8.5}
+    - name: heroine_t2_hammer_2_78
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 64
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 2.5}
+        - {x: 7.5, y: 10.5}
+        - {x: 7.5, y: 11.5}
+        - {x: 4.5, y: 19.5}
+        - {x: -17.5, y: 19.5}
+        - {x: -17.5, y: -19.5}
+        - {x: 17.5, y: -19.5}
+        - {x: 17.5, y: 4.5}
+        - {x: 12.5, y: 8.5}
+    - name: heroine_t2_hammer_2_79
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 64
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 2.5}
+        - {x: 7.5, y: 10.5}
+        - {x: 7.5, y: 11.5}
+        - {x: 4.5, y: 19.5}
+        - {x: -17.5, y: 19.5}
+        - {x: -17.5, y: -19.5}
+        - {x: 17.5, y: -19.5}
+        - {x: 17.5, y: 4.5}
+        - {x: 12.5, y: 8.5}
+    - name: heroine_t2_hammer_2_80
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 64
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 2.5}
+        - {x: 7.5, y: 10.5}
+        - {x: 7.5, y: 11.5}
+        - {x: 4.5, y: 19.5}
+        - {x: -17.5, y: 19.5}
+        - {x: -17.5, y: -19.5}
+        - {x: 17.5, y: -19.5}
+        - {x: 17.5, y: 4.5}
+        - {x: 12.5, y: 8.5}
+    - name: heroine_t2_hammer_2_81
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 64
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 2.5}
+        - {x: 7.5, y: 10.5}
+        - {x: 7.5, y: 11.5}
+        - {x: 4.5, y: 19.5}
+        - {x: -17.5, y: 19.5}
+        - {x: -17.5, y: -19.5}
+        - {x: 17.5, y: -19.5}
+        - {x: 17.5, y: 4.5}
+        - {x: 12.5, y: 8.5}
+    - name: '!hero_hammer_2_82'
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 64
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_83
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 82
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_84
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 64
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 2.5}
+        - {x: 7.5, y: 10.5}
+        - {x: 7.5, y: 11.5}
+        - {x: 4.5, y: 19.5}
+        - {x: -17.5, y: 19.5}
+        - {x: -17.5, y: -19.5}
+        - {x: 17.5, y: -19.5}
+        - {x: 17.5, y: 4.5}
+        - {x: 12.5, y: 8.5}
+    - name: heroine_t2_hammer_2_85
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 64
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 2.5}
+        - {x: 7.5, y: 10.5}
+        - {x: 7.5, y: 11.5}
+        - {x: 4.5, y: 19.5}
+        - {x: -17.5, y: 19.5}
+        - {x: -17.5, y: -19.5}
+        - {x: 17.5, y: -19.5}
+        - {x: 17.5, y: 4.5}
+        - {x: 12.5, y: 8.5}
+    - name: heroine_t2_hammer_2_86
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 4
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 19.5}
+        - {x: -14.5, y: 19.5}
+        - {x: -17.5, y: 16.5}
+        - {x: -17.5, y: -19.5}
+        - {x: 17.5, y: -19.5}
+        - {x: 17.5, y: 9.5}
+        - {x: 13.5, y: 13.5}
+    - name: heroine_t2_hammer_2_87
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 4
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 19.5}
+        - {x: -14.5, y: 19.5}
+        - {x: -17.5, y: 16.5}
+        - {x: -17.5, y: -19.5}
+        - {x: 17.5, y: -19.5}
+        - {x: 17.5, y: 9.5}
+        - {x: 13.5, y: 13.5}
+    - name: heroine_t2_hammer_2_88
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 4
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 19.5}
+        - {x: -14.5, y: 19.5}
+        - {x: -17.5, y: 16.5}
+        - {x: -17.5, y: -19.5}
+        - {x: 17.5, y: -19.5}
+        - {x: 17.5, y: 9.5}
+        - {x: 13.5, y: 13.5}
+    - name: heroine_t2_hammer_2_89
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 4
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 19.5}
+        - {x: -14.5, y: 19.5}
+        - {x: -17.5, y: 16.5}
+        - {x: -17.5, y: -19.5}
+        - {x: 17.5, y: -19.5}
+        - {x: 17.5, y: 9.5}
+        - {x: 13.5, y: 13.5}
+    - name: heroine_t2_hammer_2_90
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 4
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 19.5}
+        - {x: -14.5, y: 19.5}
+        - {x: -17.5, y: 16.5}
+        - {x: -17.5, y: -19.5}
+        - {x: 17.5, y: -19.5}
+        - {x: 17.5, y: 9.5}
+        - {x: 13.5, y: 13.5}
+    - name: heroine_t2_hammer_2_91
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 4
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 19.5}
+        - {x: -14.5, y: 19.5}
+        - {x: -17.5, y: 16.5}
+        - {x: -17.5, y: -19.5}
+        - {x: 17.5, y: -19.5}
+        - {x: 17.5, y: 9.5}
+        - {x: 13.5, y: 13.5}
+    - name: heroine_t2_hammer_2_92
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 4
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 19.5}
+        - {x: -14.5, y: 19.5}
+        - {x: -17.5, y: 16.5}
+        - {x: -17.5, y: -19.5}
+        - {x: 17.5, y: -19.5}
+        - {x: 17.5, y: 9.5}
+        - {x: 13.5, y: 13.5}
+    - name: heroine_t2_hammer_2_93
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 4
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 19.5}
+        - {x: -14.5, y: 19.5}
+        - {x: -17.5, y: 16.5}
+        - {x: -17.5, y: -19.5}
+        - {x: 17.5, y: -19.5}
+        - {x: 17.5, y: 9.5}
+        - {x: 13.5, y: 13.5}
+    - name: heroine_t2_hammer_2_94
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 4
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 19.5}
+        - {x: -14.5, y: 19.5}
+        - {x: -17.5, y: 16.5}
+        - {x: -17.5, y: -19.5}
+        - {x: 17.5, y: -19.5}
+        - {x: 17.5, y: 9.5}
+        - {x: 13.5, y: 13.5}
+    - name: '!hero_hammer_2_95'
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 4
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heroine_t2_hammer_2_96
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 4
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 19.5}
+        - {x: -14.5, y: 19.5}
+        - {x: -17.5, y: 16.5}
+        - {x: -17.5, y: -19.5}
+        - {x: 17.5, y: -19.5}
+        - {x: 17.5, y: 9.5}
+        - {x: 13.5, y: 13.5}
+    - name: heroine_t2_hammer_2_97
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 4
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 19.5}
+        - {x: -14.5, y: 19.5}
+        - {x: -17.5, y: 16.5}
+        - {x: -17.5, y: -19.5}
+        - {x: 17.5, y: -19.5}
+        - {x: 17.5, y: 9.5}
+        - {x: 13.5, y: 13.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
