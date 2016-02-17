@@ -10,6 +10,15 @@ public class AnimationEvents : MonoBehaviour {
 
     public void ThrowingFinished()
     {
-        player.GetComponent<Player>().ThrowingFinished();
+        try
+        {
+            player.GetComponent<Player>().ThrowingFinished();
+        }
+        catch (System.Exception) { 
+        
+            player.GetComponent<Zombie>().ThrowingFinished();
+        }  
+        
+        
     }
 }

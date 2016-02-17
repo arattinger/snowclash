@@ -35,8 +35,8 @@ public class Snowball : MonoBehaviour {
 //			Debug.Log(v);
             v.y = transform.position.y;
             transform.position = v;
-			Debug.Log ("Position and Transform");
-			Debug.Log(Vector3.Angle(transform.position, target));
+			//Debug.Log ("Position and Transform");
+			//Debug.Log(Vector3.Angle(transform.position, target));
 
 			// Rotation is updated every time, in case the snowball throw changes to an arc
 //			snowflakes.transform.rotation.eulerAngles = v;
