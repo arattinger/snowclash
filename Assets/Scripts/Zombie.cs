@@ -9,6 +9,14 @@ public class Zombie : MonoBehaviour {
     public float throwRange = 0.85f;
     public GameObject snowball;
 
+    // This is used to set targets for a possible patrol
+    // The Enemy follows the patrolpoints until he "sees" the player, then follows him
+    public Vector3[] patrolPoints;
+    public enum mode { Patrolling, Following };
+    mode currentMode = mode.Patrolling;
+    Vector3 patrolPoint;
+    int currentPatrol = 0;
+
     // shotCooldown and timer are used to limit the intervals
     // the enemy can shoot in. timer has to be 0!
     public float shotCooldown = 2f;
@@ -18,32 +26,57 @@ public class Zombie : MonoBehaviour {
     float damage = 0.2f;
     bool isThrowing = false;
 
-
     // Use this for initialization
     void Start()
     {
         health = maxHealth = 100f;
-
         navAgent = GetComponent<NavMeshAgent>();
         navAgent.updateRotation = false;
-        navAgent.stoppingDistance = throwRange;
+
+        if(patrolPoints.Length > 0)
+        {
+            patrolPoint = patrolPoints[0];
+            navAgent.SetDestination(patrolPoint);
+        } else
+        {
+            currentMode = mode.Following;
+        }
     }
 
-    // Update is called once per frame
     void Update()
     {
         //Debug.Log(Vector3.Magnitude(this.transform.position - Player.playerPos));
         //Debug.Log(navAgent.remainingDistance);
-        navAgent.SetDestination(Player.playerPos);
         
-        timer += Time.deltaTime;
-        // If we reached a certain distance we can throw the ball!
-        if ((throwRange + 0.05 > navAgent.remainingDistance && timer > shotCooldown) || isThrowing) {
-            UpdateAnimationShooting();
-            timer = 0;
+        if(currentMode == mode.Patrolling)
+        {
+            if(Vector3.Distance(transform.position, Player.playerPos) < throwRange + 0.1)
+            {
+                currentMode = mode.Following;
+                navAgent.stoppingDistance = throwRange;
+            }
+            // Set a new point to patrol
+            if(Vector3.Distance(transform.position, patrolPoint) < 0.1)
+            {
+                currentPatrol = (currentPatrol + 1) % patrolPoints.Length;
+                patrolPoint = patrolPoints[currentPatrol];
+                navAgent.SetDestination(patrolPoint);
+            }
+            UpdateAnimation();
+
         } else
         {
-            UpdateAnimation();
+            navAgent.SetDestination(Player.playerPos);
+        
+            timer += Time.deltaTime;
+            // If we reached a certain distance we can throw the ball!
+            if ((throwRange + 0.05 > navAgent.remainingDistance && timer > shotCooldown) || isThrowing) {
+                UpdateAnimationShooting();
+                timer = 0;
+            } else
+            {
+                UpdateAnimation();
+            }
         }
 
     }

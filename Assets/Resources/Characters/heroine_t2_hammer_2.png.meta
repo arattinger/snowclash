@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: e949da401f15cf445b4e67ccd0cdb226
-timeCreated: 1455731456
+timeCreated: 1455785632
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -50,7 +50,7 @@ TextureImporter:
     21300086: heroine_t2_hammer_2_43
     21300088: heroine_t2_hammer_2_44
     21300090: heroine_t2_hammer_2_45
-    21300092: '!hero_hammer_2_46'
+    21300092: '!hero_hammer_2_45'
     21300094: heroine_t2_hammer_2_47
     21300096: heroine_t2_hammer_2_48
     21300098: heroine_t2_hammer_2_49
@@ -62,7 +62,7 @@ TextureImporter:
     21300110: heroine_t2_hammer_2_55
     21300112: heroine_t2_hammer_2_56
     21300114: heroine_t2_hammer_2_57
-    21300116: '!hero_hammer_2_58'
+    21300116: '!hero_hammer_2_57'
     21300118: heroine_t2_hammer_2_59
     21300120: heroine_t2_hammer_2_60
     21300122: heroine_t2_hammer_2_61
@@ -74,7 +74,7 @@ TextureImporter:
     21300134: heroine_t2_hammer_2_67
     21300136: heroine_t2_hammer_2_68
     21300138: heroine_t2_hammer_2_69
-    21300140: '!hero_hammer_2_70'
+    21300140: '!hero_hammer_2_69'
     21300142: heroine_t2_hammer_2_71
     21300144: heroine_t2_hammer_2_72
     21300146: heroine_t2_hammer_2_73
@@ -86,7 +86,7 @@ TextureImporter:
     21300158: heroine_t2_hammer_2_79
     21300160: heroine_t2_hammer_2_80
     21300162: heroine_t2_hammer_2_81
-    21300164: '!hero_hammer_2_82'
+    21300164: '!hero_hammer_2_81'
     21300166: heroine_t2_hammer_2_83
     21300168: heroine_t2_hammer_2_84
     21300170: heroine_t2_hammer_2_85
@@ -99,7 +99,7 @@ TextureImporter:
     21300184: heroine_t2_hammer_2_92
     21300186: heroine_t2_hammer_2_93
     21300188: heroine_t2_hammer_2_94
-    21300190: '!hero_hammer_2_95'
+    21300190: '!hero_hammer_2_93'
     21300192: heroine_t2_hammer_2_96
     21300194: heroine_t2_hammer_2_97
   serializedVersion: 2
@@ -783,7 +783,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: '!hero_hammer_2_46'
+    - name: '!hero_hammer_2_45'
       rect:
         serializedVersion: 2
         x: 594
@@ -929,7 +929,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: '!hero_hammer_2_58'
+    - name: '!hero_hammer_2_57'
       rect:
         serializedVersion: 2
         x: 595
@@ -1061,7 +1061,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: '!hero_hammer_2_70'
+    - name: '!hero_hammer_2_69'
       rect:
         serializedVersion: 2
         x: 597
@@ -1274,7 +1274,7 @@ TextureImporter:
         - {x: 17.5, y: -19.5}
         - {x: 17.5, y: 4.5}
         - {x: 12.5, y: 8.5}
-    - name: '!hero_hammer_2_82'
+    - name: '!hero_hammer_2_81'
       rect:
         serializedVersion: 2
         x: 598
@@ -1498,7 +1498,7 @@ TextureImporter:
         - {x: 17.5, y: -19.5}
         - {x: 17.5, y: 9.5}
         - {x: 13.5, y: 13.5}
-    - name: '!hero_hammer_2_95'
+    - name: '!hero_hammer_2_93'
       rect:
         serializedVersion: 2
         x: 598
