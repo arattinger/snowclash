@@ -12,7 +12,7 @@ GameObject:
   - 195: {fileID: 19504400}
   m_Layer: 0
   m_Name: Chicken
-  m_TagString: Untagged
+  m_TagString: Animal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81,7 +81,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 120288}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.528, y: 0, z: 0.507}
+  m_LocalPosition: {x: 0.528, y: 0, z: -1.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 457318}
@@ -129,7 +129,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navAgent: {fileID: 19504400}
-  animator: {fileID: 0}
+  animator: {fileID: 9518054}
   moveCooldown: 2
   dist: 2
 --- !u!195 &19504400

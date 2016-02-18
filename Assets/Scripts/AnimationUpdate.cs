@@ -22,7 +22,7 @@ public class AnimationUpdate : MonoBehaviour {
 
         //Debug.Log("horizonal: " + horizontal + " vertical: " + vertical);
 
-        Debug.Log(vertical + " && " + horizontal);
+        //Debug.Log(vertical + " && " + horizontal);
         //Debug.Log(Vector3.Angle(new Vector3(0, navAgent.desiredVelocity.y, 0), navAgent.desiredVelocity));
 
         if (vertical > 0)

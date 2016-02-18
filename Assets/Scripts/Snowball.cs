@@ -9,7 +9,7 @@ public class Snowball : MonoBehaviour {
     float damage = 20f;
 	Component snowflakes;
 	public AudioClip snowballHit;	
-    public enum hitTarget { Player, Enemy };
+    public enum hitTarget { Player, Enemy, Animal };
 
     // Determines if the snowball is thrown at the player or the enemy
     // This is used to prevent: Friendly Fire, and Enemies killing themself
@@ -49,7 +49,6 @@ public class Snowball : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-
         //Debug.Log("other:" + other.tag);
         if (other.tag == "Enemy" && aimedAt == hitTarget.Enemy)
         {	
@@ -63,8 +62,17 @@ public class Snowball : MonoBehaviour {
             other.GetComponent<Player>().DamageAccept(damage);
         }
 
+        if(other.tag == "Animal")
+        {
+            //Debug.Log("hit the chicken");
+        }
+
+        // TODO: This all needs to be changed to the thrower
+        // The initial idea behind this was that the snowball can't
+        // instantially destroy itself when thrown by the enemy
         if ((other.tag == "Enemy" && aimedAt == hitTarget.Enemy) ||
             (other.tag == "Player" && aimedAt == hitTarget.Player) ||
+            other.tag == "Animal" ||
             other.tag == "Obstacle")
             Destroy(gameObject);
     }

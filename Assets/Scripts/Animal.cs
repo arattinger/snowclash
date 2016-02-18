@@ -24,6 +24,7 @@ public class Animal : AnimationUpdate {
             var y = dist * Mathf.Sin(angle * Mathf.Deg2Rad);
             movePosition = this.transform.position;
             movePosition.x += x;
+            movePosition.y = 0;
             movePosition.z += y;
             timer = 0;
             StartCoroutine(ChangeDirection());
