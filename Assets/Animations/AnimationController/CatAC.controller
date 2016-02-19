@@ -5,7 +5,7 @@ AnimatorController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: AnimalAC
+  m_Name: CatAC
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Direction
@@ -333,7 +333,7 @@ AnimatorState:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: chicken_up
+  m_Name: cat_up
   m_Speed: 0.75
   m_CycleOffset: 0
   m_Transitions:
@@ -348,7 +348,7 @@ AnimatorState:
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: d5c3523a2ddbb87469a6f0bfcbe9e161, type: 2}
+  m_Motion: {fileID: 7400000, guid: abe1be7e1841af6418c92d76a016e626, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -359,7 +359,7 @@ AnimatorState:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: chicken_right
+  m_Name: cat_right
   m_Speed: 0.75
   m_CycleOffset: 0
   m_Transitions:
@@ -374,7 +374,7 @@ AnimatorState:
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 456c36e3a41446040a804e8c0deb08a1, type: 2}
+  m_Motion: {fileID: 7400000, guid: 84f02bc7bb964bb48ab94bfb13a777b7, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -385,7 +385,7 @@ AnimatorState:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: chicken_left
+  m_Name: cat_left
   m_Speed: 0.75
   m_CycleOffset: 0
   m_Transitions:
@@ -400,7 +400,7 @@ AnimatorState:
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 5b199dee61cbcef43bb0b67be996ade9, type: 2}
+  m_Motion: {fileID: 7400000, guid: 133767855a5d4274f92ce588628443bc, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -411,7 +411,7 @@ AnimatorState:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: chicken_down
+  m_Name: cat_down
   m_Speed: 0.75
   m_CycleOffset: 0
   m_Transitions:
@@ -426,7 +426,7 @@ AnimatorState:
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 77e53a519955be9428e4e9cabac240ee, type: 2}
+  m_Motion: {fileID: 7400000, guid: 96544324959e02d489b9ada49e3c1eee, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
