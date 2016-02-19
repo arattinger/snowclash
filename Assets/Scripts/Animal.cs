@@ -9,6 +9,7 @@ public class Animal : AnimationUpdate
     public float dist;
     Vector3 movePosition;
     public GameObject animal;
+    public AudioClip chickenHit;
 
     int chickenCounter = 0;
     float damage = 5f;
@@ -16,7 +17,7 @@ public class Animal : AnimationUpdate
     enum mode { Walking, Attacking };
     mode currentMode = mode.Walking;
     Vector3 flyingStart;
-    public float speed = 1;
+    public float speed = 2;
     bool reachedPlayer = false;
     int hitCount = 0;
 
@@ -68,8 +69,10 @@ public class Animal : AnimationUpdate
 
     public void DamageAccept(float damage)
     {
+        SoundManager.instance.PlaySingle(chickenHit);
         hitCount++;
         if(hitCount == 3) {
+            chickenCounter = 0;
             StartCoroutine(SpawnFlyingChicken());
             hitCount = 0;
         }
