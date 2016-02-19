@@ -17,6 +17,11 @@ public class Player : MonoBehaviour {
     private static bool kinectGrabbed = false;
     private static Vector3 kinectPos;
 
+    Color lightRed = new Color32(255, 120, 120, 255);
+
+    enum powerUp { None, Speed}
+    powerUp currentPowerUp = powerUp.None;
+
     // Use this for initialization
     void Start()
     {
@@ -167,7 +172,28 @@ public class Player : MonoBehaviour {
     public void PowerUpMovement()
     {
         navAgent.speed = 1f;
+        currentPowerUp = powerUp.Speed;
+        // Just changing the pitch sounds a bit weird
+        //SoundManager.instance.musicSource.pitch = 1.1f;
         StartCoroutine(YieldMovement());
+        StartCoroutine(ChangeColor());
+    }
+
+    IEnumerator ChangeColor()
+    {
+        yield return new WaitForSeconds(0.2f);
+        SpriteRenderer a = GetComponentInChildren<SpriteRenderer>();
+        if (a.color == lightRed) {
+            a.color = Color.white;
+        }
+        else {
+            a.color = lightRed;
+        }
+        if(currentPowerUp == powerUp.None) {
+            a.color = Color.white;
+        } else {
+            StartCoroutine(ChangeColor());
+        }
     }
 
     IEnumerator YieldMovement ()
@@ -175,6 +201,8 @@ public class Player : MonoBehaviour {
         yield return new WaitForSeconds(4f);
         Debug.Log("Posle yield");
         navAgent.speed = 0.5f;
+        currentPowerUp = powerUp.None;
+        ////SoundManager.instance.musicSource.pitch = 1f;
     }
 
     public void PowerUpHealths()

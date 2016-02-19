@@ -11,6 +11,7 @@ public enum Collectables
 
 public class Collectable : MonoBehaviour {
 
+    public AudioClip powerUpSound;
     public Collectables PowerUp;
     // Use this for initialization
     void Start () {
@@ -24,6 +25,7 @@ public class Collectable : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
+            SoundManager.instance.PlaySingle(powerUpSound);
             if(PowerUp == Collectables.FastMovement)
             {
                 other.GetComponent<Player>().PowerUpMovement();
