@@ -65,6 +65,7 @@ public class Snowball : MonoBehaviour {
         if(other.tag == "Animal")
         {
             //Debug.Log("hit the chicken");
+            other.GetComponent<Animal>().DamageAccept(damage);
         }
 
         // TODO: This all needs to be changed to the thrower

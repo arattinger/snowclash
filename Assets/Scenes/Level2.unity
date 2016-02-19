@@ -5316,6 +5316,14 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11475356, guid: bef1829130059a24eb3d5f8377ac105e, type: 2}
+      propertyPath: animal
+      value: 
+      objectReference: {fileID: 1839814525}
+    - target: {fileID: 11475356, guid: bef1829130059a24eb3d5f8377ac105e, type: 2}
+      propertyPath: spawnDistance
+      value: 1.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bef1829130059a24eb3d5f8377ac105e, type: 2}
   m_IsPrefabParent: 0
