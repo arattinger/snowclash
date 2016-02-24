@@ -67,6 +67,12 @@ public class Snowball : MonoBehaviour {
             //Debug.Log("hit the chicken");
             other.GetComponent<Animal>().DamageAccept(damage);
         }
+        // TODO: Change this: all animals need to respond to the same method when hit   
+        if (other.tag == "Cat")
+        {
+            //Debug.Log("hit the chicken");
+            other.GetComponent<Cat>().DamageAccept(damage);
+        }
 
         // TODO: This all needs to be changed to the thrower
         // The initial idea behind this was that the snowball can't

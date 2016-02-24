@@ -11,6 +11,7 @@ TagManager:
   - Snowflakes
   - Collectable
   - Animal
+  - Cat
   layers:
   - Default
   - TransparentFX
