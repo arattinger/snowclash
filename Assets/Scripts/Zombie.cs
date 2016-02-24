@@ -8,11 +8,13 @@ public class Zombie : MonoBehaviour {
     public Image healthBar;
     public float throwRange = 0.85f;
     public GameObject snowball;
-
+    public GameObject eventText;
+    public GameObject exitPoint;
+    
     // This is used to set targets for a possible patrol
     // The Enemy follows the patrolpoints until he "sees" the player, then follows him
     public Vector3[] patrolPoints;
-    public enum mode { Patrolling, Following };
+    public enum mode { Patrolling, Following, RunningAway };
     mode currentMode = mode.Patrolling;
     Vector3 patrolPoint;
     int currentPatrol = 0;
@@ -22,6 +24,10 @@ public class Zombie : MonoBehaviour {
     public float shotCooldown = 2f;
     float timer = 0;
 
+    // This is used to track progress using navigation 
+    // Used to change targets or to know when no more progress is made
+    float lastDistance = 99;
+
     float health, maxHealth;
     float damage = 0.2f;
     bool isThrowing = false;
@@ -29,6 +35,7 @@ public class Zombie : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
+        
         health = maxHealth = 100f;
         navAgent = GetComponent<NavMeshAgent>();
         navAgent.updateRotation = false;
@@ -47,16 +54,16 @@ public class Zombie : MonoBehaviour {
     {
         //Debug.Log(Vector3.Magnitude(this.transform.position - Player.playerPos));
         //Debug.Log(navAgent.remainingDistance);
-        
-        if(currentMode == mode.Patrolling)
+
+        if (currentMode == mode.Patrolling)
         {
-            if(Vector3.Distance(transform.position, Player.playerPos) < throwRange + 0.1)
+            if (Vector3.Distance(transform.position, Player.playerPos) < throwRange + 0.1)
             {
                 currentMode = mode.Following;
                 navAgent.stoppingDistance = throwRange;
             }
             // Set a new point to patrol
-            if(Vector3.Distance(transform.position, patrolPoint) < 0.1)
+            if (Vector3.Distance(transform.position, patrolPoint) < 0.1)
             {
                 currentPatrol = (currentPatrol + 1) % patrolPoints.Length;
                 patrolPoint = patrolPoints[currentPatrol];
@@ -64,19 +71,31 @@ public class Zombie : MonoBehaviour {
             }
             UpdateAnimation();
 
-        } else
+        }
+        else if (currentMode == mode.Following)
         {
             navAgent.SetDestination(Player.playerPos);
-        
+
             timer += Time.deltaTime;
             // If we reached a certain distance we can throw the ball!
-            if ((throwRange + 0.05 > navAgent.remainingDistance && timer > shotCooldown) || isThrowing) {
+            if ((throwRange + 0.05 > navAgent.remainingDistance && timer > shotCooldown) || isThrowing)
+            {
                 UpdateAnimationShooting();
                 timer = 0;
-            } else
+            }
+            else
             {
                 UpdateAnimation();
             }
+        }
+        else if (currentMode == mode.RunningAway) {
+            UpdateAnimation();
+            float distance = Vector3.Distance(transform.position, exitPoint.transform.position);
+            if(lastDistance - distance < 0.001f) {
+                // The gameobject will be destroyed if no progress is made
+                Destroy(gameObject);
+            }
+            lastDistance = distance;
         }
 
     }
@@ -156,7 +175,12 @@ public class Zombie : MonoBehaviour {
         if (health < 0)
         {
             EnemyBar.EnemiesKnocked();
-            Destroy(gameObject);
+            eventText.SetActive(true);
+            navAgent.SetDestination(exitPoint.transform.position);
+            currentMode = mode.RunningAway;
+            navAgent.stoppingDistance = 0;
+            navAgent.speed = 0.4f;
+            //Destroy(gameObject);
         }
     }
 
